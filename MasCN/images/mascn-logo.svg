@@ -1,0 +1,10 @@
+<svg width="300" height="110" xmlns="http://www.w3.org/2000/svg">
+ <title>MasCN</title>
+
+ <g>
+  <title>Layer 1</title>
+  <text xml:space="preserve" text-anchor="start" font-family="'Maven Pro'" font-size="60" id="svg_2" y="71.84972" x="90.42818" stroke-width="0" stroke="#000" fill="#000000">MasCN</text>
+  <text stroke="#000" xml:space="preserve" text-anchor="start" font-family="'Maven Pro'" font-size="18" id="svg_4" y="91.24973" x="95.42818" stroke-width="0" fill="#000000">stabilization</text>
+  <path transform="rotate(90 48.6342 53.6497)" stroke="#000" id="svg_7" d="m8.13419,84.64972l40.50001,-61.99999l40.50001,61.99999l-81.00001,0z" stroke-width="0" fill="#000000"/>
+ </g>
+</svg>
