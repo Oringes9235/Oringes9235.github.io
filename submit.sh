@@ -1,3 +1,7 @@
+git add .
+
+git commit -m "[add]"
+
 ssh -T git@github.com
 
 git remote add origin git@github.com:Oringes9235/Oringes9235.github.io.git
