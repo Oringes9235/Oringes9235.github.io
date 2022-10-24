@@ -18,6 +18,7 @@
     padding: 0;
     display: inline-block;
     text-align: left;
+    vertical-align: middle;
     background-color: #161b22;
 }
 .toolbar a {
@@ -31,6 +32,7 @@
     display: inline-block;
     width: 211px;
     height: 54px;
+    vertical-align: middle;
 }
 .toolbar-nav-text {
     font-size: 16px;
@@ -58,6 +60,7 @@
 .toolbar-nav-text:hover {
     color: #babbbd;
     border-radius: 10px;
+    vertical-align: middle;
 }
 .logo-img {
     display: inline-block;
@@ -66,6 +69,7 @@
     height: 54px;
     width: auto;
     text-align: left;
+    vertical-align: middle;
 }
 .poem-box {
     display: inline-block;
@@ -93,11 +97,13 @@
     display: inline-block;
     margin: 0;
     padding: 0;
+    vertical-align: middle;
 }
 .poems p {
     display: inline-block;
     margin: 0;
     padding: 0;
+    vertical-align: middle;
 }
 .mobile-bottom {
     display: inline-block;
@@ -115,6 +121,15 @@
     line-height: 14px;
     margin: 20px 0;
     padding: 0;
+    vertical-align: middle;
+}
+.next-box {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
 }
 .left-nav {
     display: inline-block;
@@ -122,10 +137,11 @@
     width: 236px;
     margin: 5% 0 0 9%;
     padding: 16px;
-    position: sticky;
     height: calc(100vh - 172px);
+    min-height: 421px;
     text-align: left;
     border-right: #30363d solid 1px;
+    vertical-align: top;
 }
 .left-nav-title {
     color: #f0f6fc;
@@ -141,6 +157,7 @@
     padding: 0;
     line-height: 18px;
     font-size: 18px;
+    vertical-align: middle;
 }
 .infomation-box {
     display: inline-block;
@@ -156,7 +173,6 @@
     vertical-align: middle;
     width: 100%;
     height: 100%;
-    vertical-align: middle;
     margin: 8px 0 0 0 ;
     padding: 0;
     border-bottom: #1e2329 solid 1px;
@@ -166,7 +182,6 @@
     vertical-align: middle;
     width: 100%;
     height: 100%;
-    vertical-align: middle;
     margin: 8px 0 -5px 0;
     padding: 0;
 }
@@ -175,6 +190,7 @@
     height: 36px;
     width: 100%;
     margin: 0 0 0 10px;
+    vertical-align: middle;
 }
 .box-line-text {
     font-size: 16px;
@@ -182,25 +198,112 @@
     height: 29px;
     color: #c9d1d9;
     text-decoration: none;
-    position: relative;
     display: inline-block;
     vertical-align: middle;
     width: 100%;
     margin: auto 0;
-    padding: 0;
+    padding: 0 0 0 5px;
     border: 0;
 }
 .box-line-text-active {
     background-color: #1a1f24;
     border-radius: 6px;
+    vertical-align: middle;
 }
 .box-line-text-left-block {
     display: inline-block;
     background-color: #58A6FF;
     width: 5px;
     height: 24px;
-    margin: 0 12px 0 0;
+    margin: 0 12px 0 -17px;
     padding: 0;
     border-radius: 2px;
+    vertical-align: middle;
+}
+.box-line-text:hover {
+    background-color: #1a1f24;
+    color: #f0f6fc;
+    border-radius: 6px;
+    vertical-align: middle;
+}
+.right-mainly-box {
+    display: inline-block;
+    text-align: left;
+    margin: 20px 0 0 0;
+    padding: 0;
+    height: auto;
+    width: 62%;
+    vertical-align: top;
+}
+.bigger-title {
+    width: 100%;
+    height: 58px;
+    margin: 0 0 0 21px;
+    padding: 0;
+    vertical-align: middle;
+    text-align: left;
+    border-bottom: #1e2329 solid 1px;
+}
+.right-mainly-box-title-text {
+    color: #c9d1d9;
+    line-height: 32px;
+    font-size: 32px;
+    margin: 0;
+    padding: 0 0 0 5px;
+    vertical-align: middle;
+}
+.text-of-general-box {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin: 0 0 0 21px;
+    padding: 0;
+    background-color: #0d1117;
+    vertical-align: middle;
+} 
+.introduction-text-box {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin: 5px 0;
+    padding: 0;
+    vertical-align: middle;
+}
+.samll-title {
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+    line-height: 21px;
+    height: auto;
+    margin: 10px 0;
+    padding: 0 0 0 5px;
+    color: #c9d1cc;
+    vertical-align: middle;
+}
+.answer-box {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #1a1f24;
+    border: #30363d solid 1px;
+    vertical-align: middle;
+}
+.info-of-instraction {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin: 5px 0;
+    padding: 0 0 0 5px;
+    color: #c9d1d9;
+    vertical-align: middle;
+    font-size: 13px;
+    line-height: 20px;
+}
+.link-text {
+    color: #58A6FF;
+    text-decoration: none;
     vertical-align: middle;
 }
