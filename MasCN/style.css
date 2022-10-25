@@ -123,6 +123,9 @@
     padding: 0;
     vertical-align: middle;
 }
+.mobile-bottom a:hover {
+    text-decoration: underline;
+}
 .next-box {
     display: inline-block;
     margin: 0;
@@ -307,7 +310,9 @@
     text-decoration: none;
     vertical-align: middle;
 }
-
+.link-text:hover {
+    text-decoration: underline;
+}
 
 
 
@@ -326,9 +331,72 @@
 }
 .website-instraction {
     display: inline-block;
-    height: 60%;
-    width: 25%;
+    height: 54%;
+    width: 44%;
     margin: 4% 0 0 13%;
     padding: 5px 7px;
-    border: #babbbd solid 1px;
+    /*border: #babbbd solid 1px;*/
+    vertical-align: top;
+}
+.website-instraction-text {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    color: #c9d1d9;
+    font-size: 16px;
+    line-height: 19px;
+    width: 100%;
+    height: auto;
+}
+.logo-for-links-box {
+    display: inline-block;
+    margin: 26px 0 0 0;
+    padding: 0;
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+}
+.link-box-for-github {
+    display: inline-block;
+    width: auto;
+    height: 100%;
+    margin: 0 20px;
+    padding: 0;
+    vertical-align: middle;
+    text-decoration: none;
+}
+.link-instraction-span {
+    display: inline-block;
+    width: auto;
+    height: 100%;
+    vertical-align: middle;
+    color: #8b949e;
+    margin: -19px 0 0 3px;
+    padding: 0;
+}
+.link-instraction-span:hover {
+    text-decoration: underline;
+}
+.logo-box {
+    display: inline-block;
+    width: 20%;
+    height: 59%;
+    margin: 4% 0 0 3%;
+    /*border: #babbbd solid 1px;*/
+    vertical-align: top;
+}
+.copyright-box {
+    display: inline-block;
+    width: 80%;
+    height: auto;
+    margin: 7% 0 0 6%;
+    padding: 5px 50px;
+    vertical-align: middle;
+    color: #8b949e;
+    text-align: center;
+}
+.copyright-text {
+    color: #8b949e;
+    text-align: center;
+    vertical-align: middle;
 }
