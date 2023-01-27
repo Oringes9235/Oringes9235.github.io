@@ -1,54 +1,5 @@
-body {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #0d1117;
 
-  }
-  .box {
-    height: 80vh;
-    width: 76%;
-    max-width: 800px;
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
-      rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    hyphens: auto;
-    text-align: justify;
-    color: #333;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.034em;
-    font-family: "Jetbrains Mono";
-    overflow-y: scroll;
-    text-decoration: none;
-  }
-  .box- {
-    height: 80vh;
-    width: 76%;
-    max-width: 800px;
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
-      rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    hyphens: auto;
-    text-align: justify;
-    color: #333;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.034em;
-    font-family: "Jetbrains Mono";
-    overflow-y: scroll;
-    text-decoration: none;
-  }
+
   .box::-webkit-scrollbar {
     display: none;
   }
