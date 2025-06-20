@@ -3,25 +3,25 @@ document.addEventListener('DOMContentLoaded', function() {
     const albums = [
         {
             id: 1,
-            title: "2026届泉州研学",
+            title: "2026届第二中学泉州研学",
             description: "Shoot by Oringes.",
-            coverImage: "./coverImage/2026届泉州研学ShootbyOringes.webp",
+            coverImage: "./coverImage/2026届第二中学泉州研学ShootbyOringes.webp",
             date: "2024-12-20",
             link: "https://photo.baidu.com/photo/wap/albumShare/invite/RYyVrBvsPA?from=webcreate"
         },
         {
             id: 2,
-            title: "城市建筑",
-            description: "现代都市的摩天大楼与历史建筑",
-            coverImage: "https://source.unsplash.com/random/600x400/?city",
+            title: "2026届第五中学_才溪_龙田古田研学",
+            description: "Shoot by System",
+            coverImage: "./coverImage/2026届第五中学_才溪_龙田古田研学ShootbySystem.webp",
             date: "2023-06-20",
-            link: "#"
+            link: "https://photo.baidu.com/photo/wap/albumShare/invite/dLUSgOEwgl?from=webcreate"
         }
         /*,{
             id: X,
             title: "夜景摄影",
             description: "城市与自然的夜晚美景",
-            coverImage: "",
+            coverImage: "#",
             date: "2023-09-30",
             link: "#"
         }*/
