@@ -32,6 +32,22 @@ document.addEventListener('DOMContentLoaded', function() {
             coverImage: "./coverImage/2026届第一中学厦门研学ShootbySystem.webp",
             date: "2025-05-24",
             link: "#"
+        },
+        {
+            id: 5,
+            title: "2027届第二中学泉州研学",
+            description: "Shoot by System",
+            coverImage: "./coverImage/2027届第二中学泉州研学ShootbySystem.webp",
+            date: "2024-12-23",
+            link: "https://photo.baidu.com/photo/wap/albumShare/invite/DXBjzIVdfl?from=webcreate"
+        },
+        {
+            id: X,
+            title: "2027届第二中学古田研学",
+            description: "Shoot by System",
+            coverImage: "2027届第二中学古田研学ShootbySystem.jpg",
+            date: "2025-02-17",
+            link: "https://photo.baidu.com/photo/wap/albumShare/invite/ftVYlzdunv?from=webcreate"
         }
         
         /*,{
