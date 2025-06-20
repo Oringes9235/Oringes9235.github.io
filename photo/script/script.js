@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: X,
             title: "夜景摄影",
             description: "城市与自然的夜晚美景",
-            coverImage: "https://source.unsplash.com/random/600x400/?night",
+            coverImage: "",
             date: "2023-09-30",
             link: "#"
         }*/
