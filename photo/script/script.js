@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 1,
             title: "2026届泉州研学",
             description: "Shoot by Oringes.",
-            coverImage: "./coverImage/2026届泉州研学ShootbyOringes.jpg",
+            coverImage: "./coverImage/2026届泉州研学ShootbyOringes.webp",
             date: "2024-12-20",
             link: "https://photo.baidu.com/photo/wap/albumShare/invite/RYyVrBvsPA?from=webcreate"
         },
