@@ -11,12 +11,29 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             id: 2,
+            title: "2026届第二中学泉州研学",
+            description: "Shoot by System",
+            coverImage: "./coverImage/2026届第二中学泉州研学ShootbySystem.webp",
+            date: "2024-12-20",
+            link: "https://photo.baidu.com/photo/wap/albumShare/invite/GPePjjSp?from=webcreate"
+        },
+        {
+            id: 3,
             title: "2026届第五中学_才溪_龙田古田研学",
             description: "Shoot by System",
             coverImage: "./coverImage/2026届第五中学_才溪_龙田古田研学ShootbySystem.webp",
             date: "2023-06-20",
             link: "https://photo.baidu.com/photo/wap/albumShare/invite/dLUSgOEwgl?from=webcreate"
+        },
+        {
+            id: 4,
+            title: "2026届第一中学厦门研学",
+            description: "Shoot by System",
+            coverImage: "./coverImage/2026届第一中学厦门研学ShootbySystem.webp",
+            date: "2025-05-24",
+            link: "#"
         }
+        
         /*,{
             id: X,
             title: "夜景摄影",
