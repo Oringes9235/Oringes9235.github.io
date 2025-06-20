@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的链接导航</title>
+    <link rel="stylesheet" href="./static/style.css">
+    <link rel="stylesheet" href="./static/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>我的导航站</h1>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="搜索链接...">
+                <button id="searchBtn"><i class="fas fa-search"></i></button>
+            </div>
+            <button id="addLinkBtn" class="btn-add">添加链接</button>
+        </header>
+
+        <main>
+            <div class="categories">
+                <!-- 分类将通过JavaScript动态生成 -->
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2023 我的导航站 | 使用HTML5, CSS3和JavaScript构建</p>
+        </footer>
+    </div>
+
+    <!-- 添加链接的模态框 -->
+    <div id="addLinkModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>添加新链接</h2>
+            <form id="linkForm">
+                <div class="form-group">
+                    <label for="linkName">名称:</label>
+                    <input type="text" id="linkName" required>
+                </div>
+                <div class="form-group">
+                    <label for="linkUrl">URL:</label>
+                    <input type="url" id="linkUrl" required>
+                </div>
+                <div class="form-group">
+                    <label for="linkCategory">分类:</label>
+                    <input type="text" id="linkCategory" required>
+                </div>
+                <div class="form-group">
+                    <label for="linkIcon">图标 (Font Awesome类名):</label>
+                    <input type="text" id="linkIcon" placeholder="例如: fas fa-home">
+                </div>
+                <button type="submit" class="btn-submit">添加</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./script/script.js"></script>
+</body>
+</html>
