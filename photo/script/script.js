@@ -3,11 +3,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const albums = [
         {
             id: 1,
-            title: "自然风光",
-            description: "美丽的山川湖海，大自然的鬼斧神工",
-            coverImage: "https://source.unsplash.com/random/600x400/?nature",
-            date: "2023-05-15",
-            link: "#"
+            title: "2026届泉州研学",
+            description: "Shoot by Oringes.",
+            coverImage: "./coverImage/2026届泉州研学ShootbyOringes.jpg",
+            date: "2024-12-20",
+            link: "https://photo.baidu.com/photo/wap/albumShare/invite/RYyVrBvsPA?from=webcreate"
         },
         {
             id: 2,

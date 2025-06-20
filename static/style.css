@@ -1,250 +1,165 @@
-/* 基础样式 */
-:root {
-    --primary-color: #4285f4;
-    --secondary-color: #34a853;
-    --accent-color: #ea4335;
-    --light-color: #f8f9fa;
-    --dark-color: #202124;
-    --gray-color: #5f6368;
-}
-
+/* 全局样式 */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
     background-color: #f5f5f5;
-    color: var(--dark-color);
+    color: #333;
+    line-height: 1.6;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-/* 头部样式 */
 header {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    padding: 2rem 0;
     text-align: center;
-    margin-bottom: 30px;
-    padding: 20px 0;
-    background-color: white;
-    border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
-    color: var(--primary-color);
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
 }
 
 .search-box {
     display: flex;
     justify-content: center;
-    margin: 20px 0;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .search-box input {
-    width: 60%;
-    padding: 12px 15px;
-    border: 1px solid #ddd;
-    border-radius: 25px 0 0 25px;
-    font-size: 16px;
-    outline: none;
+    width: 70%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    font-size: 1rem;
 }
 
 .search-box button {
-    padding: 12px 20px;
-    background-color: var(--primary-color);
+    width: 50px;
+    background: #444;
     color: white;
     border: none;
-    border-radius: 0 25px 25px 0;
+    border-radius: 0 4px 4px 0;
     cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s;
+    transition: background 0.3s;
 }
 
 .search-box button:hover {
-    background-color: #3367d6;
+    background: #333;
 }
 
-/* 按钮样式 */
-.btn-add {
-    padding: 10px 20px;
-    background-color: var(--secondary-color);
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: #333;
     color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: all 0.3s;
+    margin-top: 2rem;
 }
 
-.btn-add:hover {
-    background-color: #2d9249;
-    transform: translateY(-2px);
-}
-
-/* 分类和链接样式 */
-.categories {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
-}
-
+/* 分类样式 */
 .category {
-    background-color: white;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .category h2 {
-    color: var(--primary-color);
-    margin-bottom: 15px;
-    padding-bottom: 10px;
+    margin-bottom: 1rem;
+    color: #444;
     border-bottom: 2px solid #eee;
+    padding-bottom: 0.5rem;
 }
 
-.links {
+.links-container {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
 }
 
-.link-item {
+.link-card {
+    background: #f9f9f9;
+    border-radius: 6px;
+    padding: 1rem;
+    transition: transform 0.3s, box-shadow 0.3s;
     display: flex;
     align-items: center;
-    padding: 10px;
-    border-radius: 5px;
-    transition: all 0.3s;
-    text-decoration: none;
-    color: var(--dark-color);
 }
 
-.link-item:hover {
-    background-color: #f0f7ff;
-    transform: translateX(5px);
+.link-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .link-icon {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
+    margin-right: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 10px;
-    color: var(--primary-color);
-    font-size: 18px;
+    background: #eee;
+    border-radius: 50%;
+    color: #555;
+    font-size: 1.2rem;
 }
 
-.link-name {
-    flex: 1;
+.link-info h3 {
+    margin-bottom: 0.3rem;
+    color: #333;
 }
 
-.link-delete {
-    color: var(--accent-color);
-    cursor: pointer;
-    opacity: 0;
-    transition: opacity 0.3s;
+.link-info p {
+    color: #777;
+    font-size: 0.9rem;
 }
 
-.link-item:hover .link-delete {
-    opacity: 1;
-}
-
-/* 页脚样式 */
-footer {
-    text-align: center;
-    margin-top: 40px;
-    padding: 20px 0;
-    color: var(--gray-color);
-    font-size: 14px;
-}
-
-/* 模态框样式 */
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.modal-content {
-    background-color: white;
-    margin: 10% auto;
-    padding: 30px;
-    border-radius: 10px;
-    width: 90%;
-    max-width: 500px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    position: relative;
-}
-
-.close {
-    position: absolute;
-    top: 15px;
-    right: 20px;
-    font-size: 24px;
-    font-weight: bold;
-    color: var(--gray-color);
-    cursor: pointer;
-}
-
-.close:hover {
-    color: var(--dark-color);
-}
-
-/* 表单样式 */
-.form-group {
-    margin-bottom: 20px;
-}
-
-.form-group label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: 600;
-}
-
-.form-group input {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 16px;
-}
-
-.btn-submit {
-    width: 100%;
-    padding: 12px;
-    background-color: var(--primary-color);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.btn-submit:hover {
-    background-color: #3367d6;
+.link-info a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* 响应式设计 */
 @media (max-width: 768px) {
-    .categories {
+    .links-container {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+    
+    header h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .links-container {
         grid-template-columns: 1fr;
     }
     
+    .search-box {
+        flex-direction: column;
+    }
+    
     .search-box input {
-        width: 70%;
+        width: 100%;
+        border-radius: 4px;
+        margin-bottom: 0.5rem;
+    }
+    
+    .search-box button {
+        width: 100%;
+        border-radius: 4px;
     }
 }

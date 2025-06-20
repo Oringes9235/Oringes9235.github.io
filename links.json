@@ -1,0 +1,38 @@
+{
+    "categories": [
+        {
+            "name": "照片相册",
+            "links": [
+                {
+                    "name": "一刻相册",
+                    "url": "./photo/index.html",
+                    "icon": "fa-hdd",
+                    "description": "看见每一刻"
+                }
+            ]
+        },
+        {
+            "name": "资源",
+            "links": [
+                {
+                    "name": "微博",
+                    "url": "https://weibo.com",
+                    "icon": "fa-weibo",
+                    "description": "中国最大的社交媒体平台之一"
+                },
+                {
+                    "name": "知乎",
+                    "url": "https://www.zhihu.com",
+                    "icon": "知",
+                    "description": "中文问答社区"
+                },
+                {
+                    "name": "Twitter",
+                    "url": "https://twitter.com",
+                    "icon": "fa-twitter",
+                    "description": "全球社交媒体平台"
+                }
+            ]
+        }
+    ]
+}
