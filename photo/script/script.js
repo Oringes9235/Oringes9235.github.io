@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: X,
             title: "2027届第二中学古田研学",
             description: "Shoot by System",
-            coverImage: "2027届第二中学古田研学ShootbySystem.jpg",
+            coverImage: "2027届第二中学古田研学ShootbySystem.webp",
             date: "2025-02-17",
             link: "https://photo.baidu.com/photo/wap/albumShare/invite/ftVYlzdunv?from=webcreate"
         }
