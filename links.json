@@ -11,7 +11,7 @@
                 },
                 {
                     "name": "个人一刻相册",
-                    "url": "./photo/private/index.html",
+                    "url": "./photo/private/login.html",
                     "icon": "fa-hdd",
                     "description": "看见此刻"
                 }

@@ -1,3 +1,8 @@
+// 检查登录状态
+if (!localStorage.getItem('isLoggedIn')) {
+    window.location.href = 'login.html';
+}
+
 document.addEventListener('DOMContentLoaded', function() {
     // 相册数据
     const albums = [
@@ -75,4 +80,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // 初始渲染
     renderAlbums(albums);
+});
+// 登出功能
+document.getElementById('logoutBtn').addEventListener('click', function() {
+    localStorage.removeItem('isLoggedIn');
+    localStorage.removeItem('username');
+    window.location.href = './login.html';
 });
