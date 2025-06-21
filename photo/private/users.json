@@ -1,8 +1,12 @@
 {
     "users": [
         {
-            "username": "Oringes",
-            "password": "123"
+            "username": "oringes",
+            "password": "Oringes.cn:9235"
+        },
+        {
+            "username": "administrator",
+            "password": "123456"
         }
     ]
 }
