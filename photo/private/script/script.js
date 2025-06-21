@@ -6,7 +6,14 @@ if (!localStorage.getItem('isLoggedIn')) {
 document.addEventListener('DOMContentLoaded', function() {
     // 相册数据
     const albums = [
-        
+        {
+            id: 1,
+            title: "2008年",
+            description: "Photographed by Sony DSC-T110",
+            coverImage: "#",
+            date: "2008",
+            link: "#"
+        }
         
         /*,{
             id: X,
