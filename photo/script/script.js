@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
             description: "Shoot by System",
             coverImage: "./coverImage/2026届第一中学厦门研学ShootbySystem.webp",
             date: "2025-05-24",
-            link: "#"
+            link: "https://photo.baidu.com/photo/wap/albumShare/invite/CFZvVPfIBW?from=webcreate"
         },
         {
             id: 5,
@@ -42,12 +42,20 @@ document.addEventListener('DOMContentLoaded', function() {
             link: "https://photo.baidu.com/photo/wap/albumShare/invite/DXBjzIVdfl?from=webcreate"
         },
         {
-            id: X,
+            id: 6,
             title: "2027届第二中学古田研学",
             description: "Shoot by System",
-            coverImage: "2027届第二中学古田研学ShootbySystem.webp",
+            coverImage: "./coverImage/2027届第二中学古田研学ShootbySystem.webp",
             date: "2025-02-17",
             link: "https://photo.baidu.com/photo/wap/albumShare/invite/ftVYlzdunv?from=webcreate"
+        },
+        {
+            id: 7,
+            title: "2026届第二中学古田研学",
+            description: "Shoot by System",
+            coverImage: "./coverImage/2026届第二中学古田研学ShootbySystem.webp",
+            date: "2025-02-24",
+            link: "#"
         }
         
         /*,{
