@@ -12,13 +12,13 @@
             ]
         },
         {
-            "name": "资源",
+            "name": "查询",
             "links": [
                 {
-                    "name": "微博",
-                    "url": "https://weibo.com",
-                    "icon": "fa-weibo",
-                    "description": "中国最大的社交媒体平台之一"
+                    "name": "AeroLOPA",
+                    "url": "https://www.aerolopa.com/",
+                    "icon": "fa-plane",
+                    "description": "全球航司客机座位集合"
                 },
                 {
                     "name": "知乎",

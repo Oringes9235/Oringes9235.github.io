@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             id: 6,
-            title: "2027届第二中学古田研学",
+            title: "2027届第二中学_明强古田研学",
             description: "Shoot by System",
             coverImage: "./coverImage/2027届第二中学古田研学ShootbySystem.webp",
             date: "2025-02-17",
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             id: 7,
-            title: "2026届第二中学古田研学",
+            title: "2026届第二中学_明强古田研学",
             description: "Shoot by System",
             coverImage: "./coverImage/2026届第二中学古田研学ShootbySystem.webp",
             date: "2025-02-24",
