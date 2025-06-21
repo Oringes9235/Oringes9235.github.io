@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             id: 2,
             title: "2026届第二中学泉州研学",
-            description: "Shoot by System",
+            description: "Shoot by System.",
             coverImage: "./coverImage/2026届第二中学泉州研学ShootbySystem.webp",
             date: "2024-12-20",
             link: "https://photo.baidu.com/photo/wap/albumShare/invite/GPePjjSp?from=webcreate"
@@ -20,15 +20,15 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             id: 3,
             title: "2026届第五中学_才溪_龙田古田研学",
-            description: "Shoot by System",
+            description: "Shoot by System.",
             coverImage: "./coverImage/2026届第五中学_才溪_龙田古田研学ShootbySystem.webp",
-            date: "2023-06-20",
+            date: "2024-11-09",
             link: "https://photo.baidu.com/photo/wap/albumShare/invite/dLUSgOEwgl?from=webcreate"
         },
         {
             id: 4,
             title: "2026届第一中学厦门研学",
-            description: "Shoot by System",
+            description: "Shoot by System.",
             coverImage: "./coverImage/2026届第一中学厦门研学ShootbySystem.webp",
             date: "2025-05-24",
             link: "https://photo.baidu.com/photo/wap/albumShare/invite/CFZvVPfIBW?from=webcreate"
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             id: 5,
             title: "2027届第二中学泉州研学",
-            description: "Shoot by System",
+            description: "Shoot by System.",
             coverImage: "./coverImage/2027届第二中学泉州研学ShootbySystem.webp",
             date: "2024-12-23",
             link: "https://photo.baidu.com/photo/wap/albumShare/invite/DXBjzIVdfl?from=webcreate"
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             id: 6,
             title: "2027届第二中学_明强古田研学",
-            description: "Shoot by System",
+            description: "Shoot by System.",
             coverImage: "./coverImage/2027届第二中学_明强古田研学ShootbySystem.webp",
             date: "2025-02-17",
             link: "https://photo.baidu.com/photo/wap/albumShare/invite/ftVYlzdunv?from=webcreate"
@@ -52,10 +52,42 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             id: 7,
             title: "2026届第二中学_明强古田研学",
-            description: "Shoot by System",
+            description: "Shoot by System.",
             coverImage: "./coverImage/2026届第二中学_明强古田研学ShootbySystem.webp",
             date: "2025-02-24",
             link: "https://photo.baidu.com/photo/wap/albumShare/invite/pNMzRCVKZF?from=webcreate"
+        },
+        {
+            id: 8,
+            title: "2024元旦晚会",
+            description: "Shoot by Oringes.",
+            coverImage: "./coverImage/2024元旦晚会ShootbyOringes.webp",
+            date: "2024-12-30",
+            link: "https://photo.baidu.com/photo/wap/albumShare/invite/tjXjsOLEDl?from=webcreate"
+        },
+        {
+            id: 9,
+            title: "2023第二中学校运动会",
+            description: "Shoot by Oringes.",
+            coverImage: "./coverImage/2023第二中学校运动会ShootbyOringes.webp",
+            date: "2023-09-30",
+            link: "https://photo.baidu.com/photo/wap/albumShare/invite/AOdqZZCAUA?from=webcreate"
+        },
+        {
+            id: 10,
+            title: "2024第二中学校运动会",
+            description: "Shoot by Oringes.",
+            coverImage: "./coverImage/2024第二中学校运动会ShootbyOringes.webp",
+            date: "2024-11-18",
+            link: "https://photo.baidu.com/photo/wap/albumShare/invite/nNOFcYXFr?from=webcreate"
+        },
+        {
+            id: 11,
+            title: "2024第五中学校运动会",
+            description: "Shoot by Yueyue.",
+            coverImage: "./coverImage/2024第五中学校运动会ShootbyYueyue.webp",
+            date: "2024-12-03",
+            link: "https://photo.baidu.com/photo/wap/albumShare/invite/YKPjFRlHPX?from=webcreate"
         }
         
         /*,{

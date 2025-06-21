@@ -4,10 +4,16 @@
             "name": "照片相册",
             "links": [
                 {
-                    "name": "一刻相册",
-                    "url": "./photo/index.html",
+                    "name": "共享一刻相册",
+                    "url": "./photo/public/index.html",
                     "icon": "fa-hdd",
                     "description": "看见每一刻"
+                },
+                {
+                    "name": "个人一刻相册",
+                    "url": "./photo/private/index.html",
+                    "icon": "fa-hdd",
+                    "description": "看见此刻"
                 }
             ]
         },
@@ -19,12 +25,6 @@
                     "url": "https://www.aerolopa.com/",
                     "icon": "fa-plane",
                     "description": "全球航司客机座位集合"
-                },
-                {
-                    "name": "知乎",
-                    "url": "https://www.zhihu.com",
-                    "icon": "知",
-                    "description": "中文问答社区"
                 }
             ]
         }
