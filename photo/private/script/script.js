@@ -10,9 +10,9 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 1,
             title: "2008年",
             description: "Photographed by Sony DSC-T110",
-            coverImage: "#",
+            coverImage: "./coverImage/2008年PhotographedbySonyDSC-T110.webp",
             date: "2008",
-            link: "#"
+            link: "https://photo.baidu.com/photo/wap/albumShare/invite/kcajAIUPLb?from=webcreate"
         }
         /*,{
             id: X,
