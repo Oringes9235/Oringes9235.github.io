@@ -14,7 +14,6 @@ document.addEventListener('DOMContentLoaded', function() {
             date: "2008",
             link: "#"
         }
-        
         /*,{
             id: X,
             title: "夜景摄影",
