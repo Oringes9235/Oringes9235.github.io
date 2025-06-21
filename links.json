@@ -25,12 +25,6 @@
                     "url": "https://www.zhihu.com",
                     "icon": "知",
                     "description": "中文问答社区"
-                },
-                {
-                    "name": "Twitter",
-                    "url": "https://twitter.com",
-                    "icon": "fa-twitter",
-                    "description": "全球社交媒体平台"
                 }
             ]
         }
