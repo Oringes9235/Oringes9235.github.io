@@ -34,8 +34,8 @@
                 {
                     "name": "Markdown Online",
                     "url": "./markdown/index.html",
-                    "icon": "fa-markdown",
-                    "description": "全球航司客机座位集合"
+                    "icon": "fa-edit",
+                    "description": "在线Markdown编辑器"
                 }
             ]
         }
