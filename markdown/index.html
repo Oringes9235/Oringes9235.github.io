@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub风格Markdown编辑器</title>
+    <link rel="stylesheet" href="./static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.2.12/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo" id="home-btn">
+            <span class="logo-icon">MD</span>
+            <span>MD Editor</span>
+        </div>
+        <div class="toolbar">
+            <button id="open-file" title="打开文件 (Ctrl+O)">
+                <i class="fas fa-folder-open"></i>
+                <span>打开</span>
+            </button>
+            <button id="save-file" title="保存文件 (Ctrl+S)">
+                <i class="fas fa-save"></i>
+                <span>保存</span>
+            </button>
+            <button id="export-pdf" title="导出PDF (Ctrl+P)">
+                <i class="fas fa-file-pdf"></i>
+                <span>PDF</span>
+            </button>
+            <div class="mode-toggle">
+                <button id="edit-mode" class="active" title="编辑模式">
+                    <i class="fas fa-edit"></i>
+                </button>
+                <button id="preview-mode" title="预览模式">
+                    <i class="fas fa-eye"></i>
+                </button>
+                <button id="split-mode" title="分屏模式">
+                    <i class="fas fa-columns"></i>
+                </button>
+            </div>
+        </div>
+        <div class="filename" id="filename">未命名.md</div>
+    </div>
+    
+    <div class="editor-container">
+        <div class="editor-wrapper">
+            <div class="line-numbers" id="line-numbers"></div>
+            <textarea id="editor" class="editor" placeholder="输入Markdown内容..."></textarea>
+        </div>
+        <div id="preview" class="preview"></div>
+    </div>
+    
+    <input type="file" id="file-input" accept=".md,.markdown,.txt" style="display: none;">
+    
+    <script src="./script/script.js"></script>
+</body>
+</html>

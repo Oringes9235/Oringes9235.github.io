@@ -1,0 +1,563 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #24292e;
+    --border-color: #e1e4e8;
+    --navbar-bg: #24292e;
+    --navbar-text: #ffffff;
+    --toolbar-bg: #f6f8fa;
+    --button-bg: #f3f4f6;
+    --button-hover: #eaeef2;
+    --button-active: #dbe0e6;
+    --button-text: #24292e;
+    --button-primary-bg: #2ea44f;
+    --button-primary-hover: #2c974b;
+    --button-primary-active: #298e46;
+    --button-primary-text: #ffffff;
+    --code-bg: #f6f8fa;
+    --blockquote-border: #dfe2e5;
+    --blockquote-bg: #f6f8fa;
+    --table-border: #dfe2e5;
+    --table-header-bg: #f6f8fa;
+    --link-color: #0366d6;
+    --pre-bg: #1e1e1e;
+    --line-number-color: #999;
+    --line-number-bg: #f7f7f7;
+}
+
+/* 暗色模式 */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #0d1117;
+        --text-color: #c9d1d9;
+        --border-color: #30363d;
+        --navbar-bg: #161b22;
+        --navbar-text: #f0f6fc;
+        --toolbar-bg: #161b22;
+        --button-bg: #21262d;
+        --button-hover: #30363d;
+        --button-active: #484f58;
+        --button-text: #c9d1d9;
+        --button-primary-bg: #238636;
+        --button-primary-hover: #2ea043;
+        --button-primary-active: #3fb950;
+        --button-primary-text: #ffffff;
+        --code-bg: #161b22;
+        --blockquote-border: #3b424a;
+        --blockquote-bg: #161b22;
+        --table-border: #3b424a;
+        --table-header-bg: #161b22;
+        --link-color: #58a6ff;
+        --pre-bg: #161b22;
+        --line-number-color: #6e7681;
+        --line-number-bg: #0d1117;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background-color: var(--navbar-bg);
+    color: var(--navbar-text);
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    height: 50px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: background-color 0.2s;
+}
+
+.logo:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.logo i {
+    font-size: 18px;
+}
+
+.logo-icon {
+    background-color: var(--logo-bg);
+    color: var(--logo-text);
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+span.logo-icon {
+    background-color: #3677f1;
+}
+
+.toolbar {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-left: 16px;
+}
+
+.toolbar button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    padding: 5px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s;
+    height: 32px;
+}
+
+.toolbar button:hover {
+    background-color: var(--button-hover);
+}
+
+.toolbar button:active {
+    background-color: var(--button-active);
+}
+
+.toolbar button i {
+    font-size: 14px;
+}
+
+.toolbar button span {
+    margin-left: 4px;
+}
+
+.mode-toggle {
+    display: flex;
+    margin-left: 8px;
+    background-color: var(--button-bg);
+    border-radius: 6px;
+    padding: 2px;
+}
+
+.mode-toggle button {
+    width: 32px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    color: var(--button-text);
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 0;
+}
+
+.mode-toggle button.active {
+    background-color: var(--button-active);
+}
+
+.filename {
+    margin-left: auto;
+    font-size: 14px;
+    color: var(--navbar-text);
+    opacity: 0.8;
+    padding: 0 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
+
+.editor-container {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+}
+
+.editor-wrapper {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.line-numbers {
+    width: 40px;
+    background-color: var(--line-number-bg);
+    color: var(--line-number-color);
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: right;
+    padding: 10px 5px;
+    overflow-y: hidden;
+    user-select: none;
+    border-right: 1px solid var(--border-color);
+}
+
+.editor, .preview {
+    flex: 1;
+    padding: 10px 16px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    height: 100%;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.editor {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border: none;
+    outline: none;
+    resize: none;
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+    tab-size: 4;
+}
+
+.preview {
+    font-size: 16px;
+    overflow-wrap: break-word;
+}
+
+/* Markdown样式 */
+.preview h1, .preview h2, .preview h3, .preview h4, .preview h5, .preview h6 {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+.preview h1 {
+    padding-bottom: 0.3em;
+    font-size: 2em;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.preview h2 {
+    padding-bottom: 0.3em;
+    font-size: 1.5em;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.preview p {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.preview a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+.preview a:hover {
+    text-decoration: underline;
+}
+
+.preview code {
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+    background-color: var(--code-bg);
+    border-radius: 6px;
+    padding: 0.2em 0.4em;
+    font-size: 85%;
+}
+
+.preview pre {
+    background-color: var(--pre-bg);
+    border-radius: 6px;
+    padding: 16px;
+    overflow: auto;
+    line-height: 1.45;
+    margin-bottom: 16px;
+}
+
+.preview pre code {
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    color: #d4d4d4;
+}
+
+.preview blockquote {
+    padding: 0 1em;
+    color: #6a737d;
+    border-left: 0.25em solid var(--blockquote-border);
+    margin: 0 0 16px 0;
+    background-color: var(--blockquote-bg);
+}
+
+.preview img {
+    max-width: 100%;
+    box-sizing: content-box;
+    background-color: var(--bg-color);
+}
+
+.preview table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.preview table th, .preview table td {
+    padding: 6px 13px;
+    border: 1px solid var(--table-border);
+}
+
+.preview table th {
+    font-weight: 600;
+    background-color: var(--table-header-bg);
+}
+
+.preview table tr {
+    background-color: var(--bg-color);
+    border-top: 1px solid var(--table-border);
+}
+
+.preview ul, .preview ol {
+    padding-left: 2em;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.preview li {
+    word-wrap: break-all;
+}
+
+.preview li > p {
+    margin-top: 16px;
+}
+
+.preview li + li {
+    margin-top: 0.25em;
+}
+
+.preview hr {
+    height: 0.25em;
+    padding: 0;
+    margin: 24px 0;
+    background-color: var(--border-color);
+    border: 0;
+}
+
+/* 数学公式样式 */
+.preview .katex {
+    font-size: 1.1em;
+}
+
+/* 代码高亮样式 - VS Code风格 */
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    background: #1e1e1e;
+    color: #d4d4d4;
+}
+
+.hljs-keyword,
+.hljs-literal,
+.hljs-name,
+.hljs-symbol {
+    color: #569cd6;
+}
+
+.hljs-link {
+    color: #569cd6;
+    text-decoration: underline;
+}
+
+.hljs-built_in,
+.hljs-type {
+    color: #4ec9b0;
+}
+
+.hljs-number,
+.hljs-class {
+    color: #b8d7a3;
+}
+
+.hljs-string,
+.hljs-meta-string {
+    color: #ce9178;
+}
+
+.hljs-regexp,
+.hljs-template-tag {
+    color: #9a5334;
+}
+
+.hljs-subst,
+.hljs-function,
+.hljs-title,
+.hljs-params,
+.hljs-formula {
+    color: #dcdcdc;
+}
+
+.hljs-comment,
+.hljs-quote {
+    color: #57a64a;
+    font-style: italic;
+}
+
+.hljs-doctag {
+    color: #608b4e;
+}
+
+.hljs-meta,
+.hljs-meta-keyword,
+.hljs-tag {
+    color: #9b9b9b;
+}
+
+.hljs-variable,
+.hljs-template-variable {
+    color: #bd63c5;
+}
+
+.hljs-attr,
+.hljs-attribute,
+.hljs-builtin-name {
+    color: #9cdcfe;
+}
+
+.hljs-section {
+    color: gold;
+}
+
+.hljs-emphasis {
+    font-style: italic;
+}
+
+.hljs-strong {
+    font-weight: bold;
+}
+
+.hljs-bullet,
+.hljs-selector-tag,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+    color: #d7ba7d;
+}
+
+.hljs-addition {
+    background-color: #144212;
+    display: inline-block;
+    width: 100%;
+}
+
+.hljs-deletion {
+    background-color: #600;
+    display: inline-block;
+    width: 100%;
+}
+
+/* 编辑模式 */
+.editor-only .preview {
+    display: none;
+}
+
+.preview-only .editor-wrapper {
+    display: none;
+}
+
+.split-mode .editor-wrapper,
+.split-mode .preview {
+    flex: 1;
+}
+
+/* 响应式布局 */
+@media (max-width: 768px) {
+    .editor-container {
+        flex-direction: column;
+    }
+    
+    .editor-wrapper, .preview {
+        flex: none;
+        height: 50%;
+    }
+    
+    .editor-wrapper {
+        border-right: none;
+        border-bottom: 1px solid var(--border-color);
+    }
+    
+    .toolbar button span {
+        display: none;
+    }
+    
+    .filename {
+        max-width: 100px;
+    }
+}
+
+/* PDF打印样式 */
+@media print {
+    body, .editor-container {
+        height: auto;
+        overflow: visible;
+    }
+    
+    .navbar, .editor-wrapper {
+        display: none;
+    }
+    
+    .preview {
+        display: block !important;
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+        border: none;
+        font-size: 12pt;
+    }
+    
+    .preview pre {
+        page-break-inside: avoid;
+        white-space: pre-wrap;
+    }
+    
+    .preview table {
+        page-break-inside: avoid;
+    }
+    
+    .preview img {
+        page-break-inside: avoid;
+        max-width: 100% !important;
+    }
+    
+    .preview h1, .preview h2, .preview h3, .preview h4 {
+        page-break-after: avoid;
+    }
+    
+    .preview p {
+        orphans: 3;
+        widows: 3;
+    }
+    
+    .katex {
+        font-size: 1em !important;
+    }
+}
