@@ -99,7 +99,7 @@ function renderModContent(mod) {
     mainContainer.innerHTML = `
         <h1>${mod.title}</h1>
         <div class="mod-meta">
-            <span>作者: ${mod.author}</span>
+            <span>编辑者: ${mod.author}</span>
             <span>更新日期: ${mod.date}</span>
             <span>适用版本: ${mod.version}</span>
         </div>
