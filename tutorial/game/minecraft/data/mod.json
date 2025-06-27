@@ -7,7 +7,7 @@
         "version": "所有版本",
         "thumbnail": "./images/MC-OV-logo_300x300.png",
         "shortDescription": "《我的世界》（Minecraft）是一款沙盒类电子游戏。",
-        "tags": ["沙盒游戏", "客户端", "服务端", "单人", "多人"],
+        "tags": ["沙盒游戏", "客户端", "服务端", "单人", "多人", "Mods"],
         "content": [
             {
                 "type": "image",
@@ -449,25 +449,29 @@
             },
             {
                 "type": "heading",
-                "text": "恭喜！现在你可以开始你的完整版Minecraft之旅 和 无数Mod的扩展内容了！",
+                "text": "恭喜！在完成验证后，现在你可以开始你的完整版Minecraft之旅 和 无数Mod的扩展内容了！",
                 "level": 2
             },
             {
                 "type": "image",
                 "src": "./images/43.webp"
+            },
+            {
+                "type": "blockquote",
+                "text": ">>> 在接下来的Minecraft之旅中你将学习到如何设置启动器，如何安装Mod加载器，如何管理你的mod文件，等等的技能。这是一个漫长的旅行，你会一次次的碰到代码启动失败，并一次次通过浏览器访问，来搜索解决方案；你会一次次的碰到客户端与服务端链接同步的问题，并一次次尝试增删文件来解决问题；无论什么，最终的你都将得到Minecraft所带来的一切！一切问题都可以被解决的。 <<<"
             }
 
         ]
     },
     {
-        "id": "optifine",
-        "title": "OptiFine",
-        "author": "sp614x",
-        "date": "2023-04-10",
-        "version": "1.19.3",
-        "thumbnail": "https://optifine.net/assets/logo_of.png",
-        "shortDescription": "OptiFine 是一个优化Mod，可以显著提高Minecraft的性能并添加额外的图形设置。",
-        "tags": ["优化", "图形", "性能"],
+        "id": "Forge 安装教程",
+        "title": "Forge 安装教程",
+        "author": "Oringes",
+        "date": "2025-06-28",
+        "version": "所有版本",
+        "thumbnail": "./images/Forge_embed_logo_256x200.png",
+        "shortDescription": "Forge是一个开源的Minecraft Java模组API，专为Minecraft游戏Mod设计。",
+        "tags": ["API", "Mods", "拓展", "开源", "库"],
         "content": [
             {
                 "type": "heading",
@@ -476,7 +480,38 @@
             },
             {
                 "type": "paragraph",
-                "text": "OptiFine 是 Minecraft 最著名的优化Mod之一，它可以显著提高游戏的帧率，减少卡顿，并添加了许多高级图形设置和着色器支持。"
+                "text": "Forge是一个开源的Minecraft Java模组API，专为Minecraft游戏Mod设计。"
+            },
+            {
+                "type": "heading",
+                "text": "敬请期待词条更新！",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "Fabric 安装教程",
+        "title": "Fabric 安装教程",
+        "author": "Oringes",
+        "date": "2025-06-28",
+        "version": "所有版本",
+        "thumbnail": "./images/Fabric_logo_480x300.png",
+        "shortDescription": "Fabric是《我的世界》中的一个轻量级模组加载器，主要用于1.14及以上版本。",
+        "tags": ["API", "Mods", "拓展", "开源", "库"],
+        "content": [
+            {
+                "type": "heading",
+                "text": "简介",
+                "level": 2
+            },
+            {
+                "type": "paragraph",
+                "text": "Fabric是《我的世界》中的一个轻量级模组加载器，主要用于1.14及以上版本。支持最新版本，比Forge更快更新。更小、更轻量，对游戏性能影响较小。友好的API，方便模组作者注册物品、方块等。 "
+            },
+            {
+                "type": "heading",
+                "text": "敬请期待词条更新！",
+                "level": 2
             }
         ]
     }
