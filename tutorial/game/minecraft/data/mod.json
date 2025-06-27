@@ -5,13 +5,13 @@
         "author": "Oringes",
         "date": "2025-06-28",
         "version": "所有版本",
-        "thumbnail": "./images/MC-OV-logo_300x300.png",
+        "thumbnail": "./images/Minecraft-Java-Edition-安装教程/MC-OV-logo_300x300.png",
         "shortDescription": "《我的世界》（Minecraft）是一款沙盒类电子游戏。",
         "tags": ["沙盒游戏", "客户端", "服务端", "单人", "多人", "Mods"],
         "content": [
             {
                 "type": "image",
-                "src": "./images/简介.png"
+                "src": "./images/Minecraft-Java-Edition-安装教程/简介.png"
 
             },
             {
@@ -48,11 +48,11 @@
             },
             {
                 "type": "image",
-                "src": "./images/1.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/1.webp"
             },
             {
                 "type": "image",
-                "src": "./images/2.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/2.webp"
             },
             {
                 "type": "paragraph",
@@ -60,7 +60,7 @@
             },
             {
                 "type": "image",
-                "src": "./images/3.png"
+                "src": "./images/Minecraft-Java-Edition-安装教程/3.png"
             },
             {
                 "type": "paragraph",
@@ -68,7 +68,7 @@
             },
             {
                 "type": "image",
-                "src": "./images/4.png"
+                "src": "./images/Minecraft-Java-Edition-安装教程/4.png"
             },
             {
                 "type": "paragraph",
@@ -95,7 +95,7 @@
             },
             {
                 "type": "image",
-                "src": "./images/5.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/5.webp"
             },
             {
                 "type": "heading",
@@ -104,7 +104,7 @@
             },
             {
                 "type": "image",
-                "src": "./images/6.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/6.webp"
             },
             {
                 "type": "heading",
@@ -113,7 +113,7 @@
             },
             {
                 "type": "image",
-                "src": "./images/7.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/7.webp"
             },
             {
                 "type": "heading",
@@ -127,11 +127,11 @@
             },
             {
                 "type": "image",
-                "src": "./images/8.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/8.webp"
             },
             {
                 "type": "image",
-                "src": "./images/9.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/9.webp"
             },
             {
                 "type": "heading",
@@ -140,7 +140,7 @@
             },
             {
                 "type": "image",
-                "src": "./images/10.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/10.webp"
             },
             {
                 "type": "heading",
@@ -153,7 +153,7 @@
             },
             {
                 "type": "image",
-                "src": "./images/11.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/11.webp"
             },
             {
                 "type": "heading",
@@ -162,7 +162,7 @@
             },
             {
                 "type": "image",
-                "src": "./images/12.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/12.webp"
             },
             {
                 "type": "heading",
@@ -175,7 +175,7 @@
             },
             {
                 "type": "image",
-                "src": "./images/13.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/13.webp"
             },
             {
                 "type": "heading",
@@ -184,11 +184,11 @@
             },
             {
                 "type": "image",
-                "src": "./images/14.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/14.webp"
             },
             {
                 "type": "image",
-                "src": "./images/15.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/15.webp"
             },
             {
                 "type": "paragraph",
@@ -206,15 +206,15 @@
             },
             {
                 "type": "image",
-                "src": "./images/16.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/16.webp"
             },
             {
                 "type": "image",
-                "src": "./images/17.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/17.webp"
             },
             {
                 "type": "image",
-                "src": "./images/18.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/18.webp"
             },
             {
                 "type": "heading",
@@ -223,7 +223,7 @@
             },
             {
                 "type": "image",
-                "src": "./images/19.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/19.webp"
             },
             {
                 "type": "heading",
@@ -232,7 +232,7 @@
             },
             {
                 "type": "image",
-                "src": "./images/20.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/20.webp"
             },
             {
                 "type": "heading",
@@ -241,7 +241,7 @@
             },
             {
                 "type": "image",
-                "src": "./images/21.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/21.webp"
             },
             {
                 "type": "heading",
@@ -254,7 +254,7 @@
             },
             {
                 "type": "image",
-                "src": "./images/22.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/22.webp"
             },
             {
                 "type": "heading",
@@ -263,11 +263,11 @@
             },
             {
                 "type": "image",
-                "src": "./images/23.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/23.webp"
             },
             {
                 "type": "image",
-                "src": "./images/24.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/24.webp"
             },
             {
                 "type": "heading",
@@ -276,7 +276,7 @@
             },
             {
                 "type": "image",
-                "src": "./images/25.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/25.webp"
             },
             {
                 "type": "heading",
@@ -298,7 +298,7 @@
             },
             {
                 "type": "image",
-                "src": "./images/26.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/26.webp"
             },
             {
                 "type": "heading",
@@ -307,11 +307,11 @@
             },
             {
                 "type": "image",
-                "src": "./images/27.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/27.webp"
             },
             {
                 "type": "image",
-                "src": "./images/28.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/28.webp"
             },
             {
                 "type": "paragraph",
@@ -324,11 +324,11 @@
             },
             {
                 "type": "image",
-                "src": "./images/29.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/29.webp"
             },
             {
                 "type": "image",
-                "src": "./images/30.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/30.webp"
             },
             {
                 "type": "paragraph",
@@ -370,7 +370,7 @@
             },
             {
                 "type": "image",
-                "src": "./images/31.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/31.webp"
             },
             {
                 "type": "heading",
@@ -379,11 +379,11 @@
             },
             {
                 "type": "image",
-                "src": "./images/32.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/32.webp"
             },
             {
                 "type": "image",
-                "src": "./images/33.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/33.webp"
             },
             {
                 "type": "heading",
@@ -392,7 +392,7 @@
             },
             {
                 "type": "image",
-                "src": "./images/34.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/34.webp"
             },
             {
                 "type": "paragraph",
@@ -400,11 +400,11 @@
             },
             {
                 "type": "image",
-                "src": "./images/35.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/35.webp"
             },
             {
                 "type": "image",
-                "src": "./images/36.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/36.webp"
             },
             {
                 "type": "paragraph",
@@ -417,15 +417,15 @@
             },
             {
                 "type": "image",
-                "src": "./images/37.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/37.webp"
             },
             {
                 "type": "image",
-                "src": "./images/38.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/38.webp"
             },
             {
                 "type": "image",
-                "src": "./images/39.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/39.webp"
             },
             {
                 "type": "paragraph",
@@ -433,11 +433,11 @@
             },
             {
                 "type": "image",
-                "src": "./images/40.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/40.webp"
             },
             {
                 "type": "image",
-                "src": "./images/41.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/41.webp"
             },
             {
                 "type": "paragraph",
@@ -445,7 +445,7 @@
             },
             {
                 "type": "image",
-                "src": "./images/42.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/42.webp"
             },
             {
                 "type": "heading",
@@ -454,7 +454,7 @@
             },
             {
                 "type": "image",
-                "src": "./images/43.webp"
+                "src": "./images/Minecraft-Java-Edition-安装教程/43.webp"
             },
             {
                 "type": "blockquote",
@@ -469,7 +469,7 @@
         "author": "Oringes",
         "date": "2025-06-28",
         "version": "所有版本",
-        "thumbnail": "./images/Forge_embed_logo_256x200.png",
+        "thumbnail": "./images/Forge-安装教程/Forge_embed_logo_256x200.png",
         "shortDescription": "Forge是一个开源的Minecraft Java模组API，专为Minecraft游戏Mod设计。",
         "tags": ["API", "Mods", "拓展", "开源", "库"],
         "content": [
@@ -495,7 +495,7 @@
         "author": "Oringes",
         "date": "2025-06-28",
         "version": "所有版本",
-        "thumbnail": "./images/Fabric_logo_480x300.png",
+        "thumbnail": "./images/Fabric-安装教程/Fabric_logo_480x300.png",
         "shortDescription": "Fabric是《我的世界》中的一个轻量级模组加载器，主要用于1.14及以上版本。",
         "tags": ["API", "Mods", "拓展", "开源", "库"],
         "content": [
