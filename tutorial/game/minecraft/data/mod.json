@@ -331,8 +331,129 @@
             {
                 "type": "paragraph",
                 "text": "设置完成后，你还可以自行在此页面进行皮肤的更换和披风的开启！"
+            },
+            {
+                "type": "heading",
+                "text": "第六部分：安装第三方启动器",
+                "level": 2
+            },
+            {
+                "type": "blockquote",
+                "text": ">>> 官方启动器无法加载Fabric、Forge和Mod扩展，此时第三方启动器可以很好的解决这个问题。<<<"
+            },
+            {
+                "type": "paragraph",
+                "text": " "
+            },
+            {
+                "type": "paragraph",
+                "text": "什么是Fabric和Forge？"
+            },
+            {
+                "type": "paragraph",
+                "text": "Forge 和 Fabric 是 Minecraft 中两种主要的 Mod 加载器，它们各自有不同的特点和适用场景。Forge 是一种老牌的 Mod 加载器，适用于 Minecraft 的多个版本。它的主要特点是大型和封闭。Fabric 是一种较新的 mod 加载器，适用于 Minecraft 的较新版本。它的主要特点是模块化和开放。"
+            },
+            {
+                "type": "heading",
+                "text": "1. 下载HMCL (Hello Minecraft Launcher)启动器",
+                "level": 3
+            },
+            {
+                "type": "paragraph",
+                "text": "<a href='https://hmcl.huangyuhui.net/download/'>HMCL官网下载链接</a>"
+            },
+            {
+                "type": "paragraph",
+                "text": "记住访问密码为“5267”。"
+            },
+            {
+                "type": "image",
+                "src": "./images/31.webp"
+            },
+            {
+                "type": "heading",
+                "text": "2. 输入访问密码后，点击“HMCL-X.X.XX.zip”的标签，并且用普通下载方式下载",
+                "level": 3
+            },
+            {
+                "type": "image",
+                "src": "./images/32.webp"
+            },
+            {
+                "type": "image",
+                "src": "./images/33.webp"
+            },
+            {
+                "type": "heading",
+                "text": "3. 下载完成后，在“C:/Users/[你的用户名]/Downloads/”下，找到下载的压缩包文件，解压",
+                "level": 3
+            },
+            {
+                "type": "image",
+                "src": "./images/34.webp"
+            },
+            {
+                "type": "paragraph",
+                "text": "先在“C:/”下创建一个名为“Minecraft”的文件夹，然后在回到刚刚解压的文件夹目录下，将“HMCL-X.X.XX.exe”文件复制到“C:/Minecraft”文件夹下。"
+            },
+            {
+                "type": "image",
+                "src": "./images/35.webp"
+            },
+            {
+                "type": "image",
+                "src": "./images/36.webp"
+            },
+            {
+                "type": "paragraph",
+                "text": "在打开“C:/Minecraft”文件夹后，点击运行“HMCL-X.X.XX.exe”文件。"
+            },
+            {
+                "type": "heading",
+                "text": "4. 运行HMCL启动器，并且登录刚刚购买了Minecraft正版的账号",
+                "level": 3
+            },
+            {
+                "type": "image",
+                "src": "./images/37.webp"
+            },
+            {
+                "type": "image",
+                "src": "./images/38.webp"
+            },
+            {
+                "type": "image",
+                "src": "./images/39.webp"
+            },
+            {
+                "type": "paragraph",
+                "text": "记住这里的验证代码如“BHCQSSGF”，待自动跳转到浏览器中进行验证的时候，按照提示输入验证代码。"
+            },
+            {
+                "type": "image",
+                "src": "./images/40.webp"
+            },
+            {
+                "type": "image",
+                "src": "./images/41.webp"
+            },
+            {
+                "type": "paragraph",
+                "text": "然后点击下方的“允许访问”按钮，之后进行身份验证即可。"
+            },
+            {
+                "type": "image",
+                "src": "./images/42.webp"
+            },
+            {
+                "type": "paragraph",
+                "text": "恭喜！现在你可以开始你的完整版Minecraft之旅 和 无数Mod的扩展内容了！"
+            },
+            {
+                "type": "image",
+                "src": "./images/43.webp"
             }
-            
+
         ]
     },
     {
@@ -353,68 +474,6 @@
             {
                 "type": "paragraph",
                 "text": "OptiFine 是 Minecraft 最著名的优化Mod之一，它可以显著提高游戏的帧率，减少卡顿，并添加了许多高级图形设置和着色器支持。"
-            },
-            {
-                "type": "heading",
-                "text": "主要功能",
-                "level": 2
-            },
-            {
-                "type": "list",
-                "ordered": false,
-                "items": [
-                    "大幅提高游戏性能",
-                    "支持高清纹理包（HD Textures）",
-                    "动态光照效果",
-                    "可配置的细节设置",
-                    "着色器支持（Shaders）",
-                    "自定义FPS限制",
-                    "更好的雾效和天空渲染"
-                ]
-            },
-            {
-                "type": "heading",
-                "text": "安装方法",
-                "level": 2
-            },
-            {
-                "type": "paragraph",
-                "text": "OptiFine的安装方法与其他Mod略有不同："
-            },
-            {
-                "type": "list",
-                "ordered": true,
-                "items": [
-                    "从OptiFine官网下载对应版本的安装包",
-                    "双击运行下载的.jar文件",
-                    "点击'Install'按钮进行安装",
-                    "安装完成后，在Minecraft启动器中选择OptiFine配置文件启动游戏"
-                ]
-            },
-            {
-                "type": "heading",
-                "text": "性能比较",
-                "level": 2
-            },
-            {
-                "type": "paragraph",
-                "text": "以下是使用OptiFine前后的性能对比数据："
-            },
-            {
-                "type": "table",
-                "headers": ["场景", "无OptiFine (FPS)", "有OptiFine (FPS)"],
-                "rows": [
-                    ["平原", "45", "120"],
-                    ["森林", "35", "90"],
-                    ["村庄", "30", "85"],
-                    ["下界", "50", "110"]
-                ]
-            },
-            {
-                "type": "image",
-                "src": "https://i.imgur.com/ABC123.png",
-                "alt": "OptiFine设置界面",
-                "caption": "OptiFine的详细图形设置选项"
             }
         ]
     }
