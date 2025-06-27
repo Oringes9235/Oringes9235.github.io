@@ -470,7 +470,7 @@
         "date": "2025-06-28",
         "version": "所有版本",
         "thumbnail": "./images/Forge-安装教程/Forge_embed_logo_256x200.png",
-        "shortDescription": "Forge是一个开源的Minecraft Java模组API，专为Minecraft游戏Mod设计。",
+        "shortDescription": "Forge是一个开源的Minecraft Java模组API，专为Minecraft游戏Mod设计。支持早期版本的Mod加载。",
         "tags": ["API", "Mods", "拓展", "开源", "库"],
         "content": [
             {
@@ -496,7 +496,7 @@
         "date": "2025-06-28",
         "version": "所有版本",
         "thumbnail": "./images/Fabric-安装教程/Fabric_logo_480x300.png",
-        "shortDescription": "Fabric是《我的世界》中的一个轻量级模组加载器，主要用于1.14及以上版本。",
+        "shortDescription": "Fabric是Minecraft Java中的一个轻量级模组加载器，主要用于1.14及以上版本。",
         "tags": ["API", "Mods", "拓展", "开源", "库"],
         "content": [
             {
@@ -506,7 +506,7 @@
             },
             {
                 "type": "paragraph",
-                "text": "Fabric是《我的世界》中的一个轻量级模组加载器，主要用于1.14及以上版本。支持最新版本，比Forge更快更新。更小、更轻量，对游戏性能影响较小。友好的API，方便模组作者注册物品、方块等。 "
+                "text": "Fabric是Minecraft Java中的一个轻量级模组加载器，主要用于1.14及以上版本。支持最新版本，比Forge更快更新。更小、更轻量，对游戏性能影响较小。友好的API，方便模组作者注册物品、方块等。 "
             },
             {
                 "type": "heading",
