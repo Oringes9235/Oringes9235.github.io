@@ -5,10 +5,15 @@
         "author": "Oringes",
         "date": "2025-06-28",
         "version": "所有版本",
-        "thumbnail": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/logos/Homepage_Gameplay-Trailer_MC-OV-logo_300x300.png",
+        "thumbnail": "./images/MC-OV-logo_300x300.png",
         "shortDescription": "《我的世界》（Minecraft）是一款沙盒类电子游戏。",
         "tags": ["沙盒游戏", "客户端", "服务端", "单人", "多人"],
         "content": [
+            {
+                "type": "image",
+                "src": "./images/简介.png"
+
+            },
             {
                 "type": "heading",
                 "text": "简介",
@@ -20,17 +25,177 @@
             },
             {
                 "type": "heading",
-                "text": "正版",
+                "text": "准备工作",
+                "level": 2
+            },
+            {
+                "type": "list",
+                "items":[
+                    "一台可以上网的电脑",
+                    "支付宝并且里面还有 ¥89"
+                ]
+            },
+            {
+                "type": "heading",
+                "text": "第一部分：注册&登录你的微软账号",
+                "level": 2
+            },
+            {
+                "type": "paragraph",
+                "text": "打开你的微软商店（Microsoft Store），点击右上角登录"
+            },
+            {
+                "type": "image",
+                "src": "./images/1.webp"
+            },
+            {
+                "type": "image",
+                "src": "./images/2.webp"
+            },
+            {
+                "type": "paragraph",
+                "text": "Microsoft Store 会自动关联已经登录 Windows 设备的微软账户，如果你已经拥有此账户，则直接点击登录即可，若不想使用该账户登录，则点击下面的“使用其他账户”选项。"
+            },
+            {
+                "type": "image",
+                "src": "./images/3.png"
+            },
+            {
+                "type": "paragraph",
+                "text": "选择后，点击下方的继续按钮，等待跳转。"
+            },
+            {
+                "type": "image",
+                "src": "./images/4.png"
+            },
+            {
+                "type": "paragraph",
+                "text": "下面也不再过多的赘述，请自行查看<a href='https://support.microsoft.com/zh-cn/account-billing/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E6%96%B0%E7%9A%84-microsoft-%E5%B8%90%E6%88%B7-a84675c3-3e9e-17cf-2911-3d56b15c0aaf'>官方文档</a>。"
+            },
+            {
+                "type": "heading",
+                "text": "第二部分：在 Microsoft Store 中搜索 Minecraft",
+                "level": 2
+            },
+            {
+                "type": "blockquote",
+                "text": ">>> 请注意，以下步骤均需要在已经登录 Microsoft 账号后进行 <<<"
+            },
+            {
+                "type": "heading",
+                "text": "1. 打开的 Microsoft Store",
+                "level": 3
+            },
+            {
+                "type": "heading",
+                "text": "2. 搜索栏输入“Minecraft”，回车搜索（或者鼠标点击“放大镜”小箭头）",
+                "level": 3
+            },
+            {
+                "type": "image",
+                "src": "./images/5.webp"
+            },
+            {
+                "type": "heading",
+                "text": "3. 点击“Minecraft：Java & Minecraft Bedrock Edition for PC”。",
+                "level": 3
+            },
+            {
+                "type": "image",
+                "src": "./images/6.webp"
+            },
+            {
+                "type": "heading",
+                "text": "4. 点击购买（售价 ¥89）。",
+                "level": 3
+            },
+            {
+                "type": "image",
+                "src": "./images/7.webp"
+            },
+            {
+                "type": "heading",
+                "text": "第三部分：购买",
                 "level": 2
             },
             {
                 "type": "heading",
-                "text": "购买正版账号",
+                "text": "1. 在付款方式中选择 支付宝，然后点击购买",
                 "level": 3
             },
             {
+                "type": "image",
+                "src": "./images/8.webp"
+            },
+            {
+                "type": "image",
+                "src": "./images/9.webp"
+            },
+            {
+                "type": "heading",
+                "text": "2. 添加您的支付宝，下一页",
+                "level": 3
+            },
+            {
+                "type": "image",
+                "src": "./images/10.webp"
+            },
+            {
+                "type": "heading",
+                "text": "3. 如果是第一次在 Microsoft Store 购买物品，则会弹出下面的窗口，此时打开你的支付宝，扫码绑定，成功后点击下方“继续”按钮",
+                "level": 3
+            },
+            {
+                "type": "blockquote",
+                "text": ">>> 如果你已经在 Microsoft Store 上购买过物品，则可能不会出现下面的弹窗，请直接跳转步骤 4 <<<"
+            },
+            {
+                "type": "image",
+                "src": "./images/11.webp"
+            },
+            {
+                "type": "heading",
+                "text": "4. 在支付宝界面你会签约微软免密支付，点击“同意协议并开通免密支付”",
+                "level": 3
+            },
+            {
+                "type": "image",
+                "src": "./images/12.webp"
+            },
+            {
+                "type": "heading",
+                "text": "5. 开通后在 Microsoft Store 里点击继续，填写你的收货地址，填写完以后点击保存",
+                "level": 3
+            },
+            {
+                "type": "blockquote",
+                "text": ">>> 不需要填写很详细，随便填写就好，地址不会对购买有任何影响。 <<<"
+            },
+            {
+                "type": "image",
+                "src": "./images/13.webp"
+            },
+            {
+                "type": "heading",
+                "text": "6. 点击“购买”按钮，随后就会进行静默扣款，你可以在支付宝中看到交易记录",
+                "level": 3
+            },
+            {
+                "type": "image",
+                "src": "./images/14.webp"
+            },
+            {
+                "type": "image",
+                "src": "./images/15.webp"
+            },
+            {
                 "type": "paragraph",
-                "text": "正版账号购买地址：https://www.minecraft.net/zh-cn/store/minecraft-java-edition"
+                "text": "恭喜你拥有了Minecraft Java正版帐号了！"
+            },
+            {
+                "type": "heading",
+                "text": "第四部分：下载官方启动器 Minecraft Launcher 安装包",
+                "level": 2
             }
         ]
     },
