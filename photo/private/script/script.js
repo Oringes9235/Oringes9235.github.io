@@ -13,6 +13,14 @@ document.addEventListener('DOMContentLoaded', function() {
             coverImage: "./coverImage/2008年PhotographedbySonyDSC-T110.webp",
             date: "2008",
             link: "https://photo.baidu.com/photo/wap/albumShare/invite/kcajAIUPLb?from=webcreate"
+        },
+        {
+            id: 2,
+            title: "2026届一中集体照",
+            description: "Photographed by System.",
+            coverImage: "./coverImage/2026届第一中学厦门研学ShootbySystem.webp",
+            date: "2025-05-24",
+            link: "https://photo.baidu.com/photo/wap/albumShare/invite/PWevPvMhGD?from=webcreate"
         }
         /*,{
             id: X,
