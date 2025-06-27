@@ -446,8 +446,9 @@
                 "src": "./images/42.webp"
             },
             {
-                "type": "paragraph",
-                "text": "恭喜！现在你可以开始你的完整版Minecraft之旅 和 无数Mod的扩展内容了！"
+                "type": "heading",
+                "text": "恭喜！现在你可以开始你的完整版Minecraft之旅 和 无数Mod的扩展内容了！",
+                "level": 2
             },
             {
                 "type": "image",
