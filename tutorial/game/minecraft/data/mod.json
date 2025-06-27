@@ -280,7 +280,59 @@
                 "type": "heading",
                 "text": "第五部分：设置你的 Minecraft ID",
                 "level": 2
+            },
+            {
+                "type": "paragraph",
+                "text": "<a href='https://www.minecraft.net/zh-hans'>Minecraft 官网</a>"
+            },
+            {
+                "type": "heading",
+                "text": "1. 打开 Minecraft 官网，点击“继续浏览该网站”（智障冈易）",
+                "level": 3
+            },
+            {
+                "type": "blockquote",
+                "text": ">>> 请注意，若再次出现此类提示，继续点击“继续浏览该网站”！！！ <<<"
+            },
+            {
+                "type": "image",
+                "src": "./images/26.webp"
+            },
+            {
+                "type": "heading",
+                "text": "2. 右上角“账户”—“登录”，登录你刚刚购买的账号",
+                "level": 3
+            },
+            {
+                "type": "image",
+                "src": "./images/27.webp"
+            },
+            {
+                "type": "image",
+                "src": "./images/28.webp"
+            },
+            {
+                "type": "paragraph",
+                "text": "之后就按照引导进行登录即可。"
+            },
+            {
+                "type": "heading",
+                "text": "3. 在下面找到点击“档案名称”，自己设置就好",
+                "level": 3
+            },
+            {
+                "type": "image",
+                "src": "./images/29.webp"
+            },
+            {
+                "type": "image",
+                "src": "./images/30.webp"
+            },
+            {
+                "type": "paragraph",
+                "text": "设置完成后，你还可以自行在此页面进行皮肤的更换和披风的开启！"
             }
+            
         ]
     },
     {
