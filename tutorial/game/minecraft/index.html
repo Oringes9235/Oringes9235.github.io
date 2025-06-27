@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oringes' Minecraft</title>
+    <link rel="stylesheet" href="./static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎮</text></svg>">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="navbar-top">
+            <div class="navbar-logo">
+                <img src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/logos/Global-Header_MCCB-Logo_300x51.svg" alt="Minecraft Logo" style="width: 60%; height: auto;">
+            </div>
+            <div class="navbar-search">
+                <input type="text" placeholder="搜索内容 ...">
+                <button>搜索</button>
+            </div>
+        </div>
+        <div class="navbar-bottom">
+            <div class="navbar-links">
+                <a href="index.html" class="active">首页</a>
+                <a href="../../../index.html">返回导航页</a>
+            </div>
+            <div class="navbar-back" style="display: none;">
+                <a href="#" id="back-to-list">返回列表</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主内容区 -->
+    <main class="container">
+        <div class="mod-list" id="mod-list">
+            <!-- 这里由JavaScript动态生成 -->
+        </div>
+        
+        <div class="mod-content" id="mod-content" style="display: none;">
+            <div class="content-outline" id="content-outline">
+                <!-- 大纲导航 -->
+            </div>
+            <div class="content-main" id="content-main">
+                <!-- 详细内容 -->
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2022 - 2025 Oringes.cn & Xue FengPeng 保留所有权利.</p>
+            <div class="social-links">
+                <a href="https://github.com/Oringes9235"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- 页脚 
+    <footer class="footer">
+        <p>&copy; 2022 - 2025 Oringes.cn & Xue FengPeng 保留所有权利.</p>
+        <div class="social-links">
+                <a href="https://github.com/Oringes9235"><i class="fab fa-github"></i></a>
+            </div>
+    </footer>-->
+
+    <script src="./script/script.js"></script>
+</body>
+</html>

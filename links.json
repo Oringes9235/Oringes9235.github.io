@@ -25,6 +25,12 @@
                     "url": "https://www.aerolopa.com/",
                     "icon": "fa-plane",
                     "description": "全球航司客机座位集合"
+                },
+                {
+                    "name": "Minecraft",
+                    "url": "./tutorial/game/minecraft/index.html",
+                    "icon": "fa-gamepad",
+                    "description": "Minecraft Mod 教程介绍"
                 }
             ]
         },

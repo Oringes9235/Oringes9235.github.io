@@ -1,0 +1,120 @@
+[
+    {
+        "id": "Minecraft Java Edition 安装教程",
+        "title": "Minecraft Java Edition 安装教程",
+        "author": "Oringes",
+        "date": "2025-06-28",
+        "version": "所有版本",
+        "thumbnail": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/logos/Homepage_Gameplay-Trailer_MC-OV-logo_300x300.png",
+        "shortDescription": "《我的世界》（Minecraft）是一款沙盒类电子游戏。",
+        "tags": ["沙盒游戏", "客户端", "服务端", "单人", "多人"],
+        "content": [
+            {
+                "type": "heading",
+                "text": "简介",
+                "level": 2
+            },
+            {
+                "type": "paragraph",
+                "text": "Minecraft Java Edition是一款由 Mojang Studios 开发的沙盒游戏，于2009年11月18日发布。"
+            },
+            {
+                "type": "heading",
+                "text": "正版",
+                "level": 2
+            },
+            {
+                "type": "heading",
+                "text": "购买正版账号",
+                "level": 3
+            },
+            {
+                "type": "paragraph",
+                "text": "正版账号购买地址：https://www.minecraft.net/zh-cn/store/minecraft-java-edition"
+            }
+        ]
+    },
+    {
+        "id": "optifine",
+        "title": "OptiFine",
+        "author": "sp614x",
+        "date": "2023-04-10",
+        "version": "1.19.3",
+        "thumbnail": "https://optifine.net/assets/logo_of.png",
+        "shortDescription": "OptiFine 是一个优化Mod，可以显著提高Minecraft的性能并添加额外的图形设置。",
+        "tags": ["优化", "图形", "性能"],
+        "content": [
+            {
+                "type": "heading",
+                "text": "简介",
+                "level": 2
+            },
+            {
+                "type": "paragraph",
+                "text": "OptiFine 是 Minecraft 最著名的优化Mod之一，它可以显著提高游戏的帧率，减少卡顿，并添加了许多高级图形设置和着色器支持。"
+            },
+            {
+                "type": "heading",
+                "text": "主要功能",
+                "level": 2
+            },
+            {
+                "type": "list",
+                "ordered": false,
+                "items": [
+                    "大幅提高游戏性能",
+                    "支持高清纹理包（HD Textures）",
+                    "动态光照效果",
+                    "可配置的细节设置",
+                    "着色器支持（Shaders）",
+                    "自定义FPS限制",
+                    "更好的雾效和天空渲染"
+                ]
+            },
+            {
+                "type": "heading",
+                "text": "安装方法",
+                "level": 2
+            },
+            {
+                "type": "paragraph",
+                "text": "OptiFine的安装方法与其他Mod略有不同："
+            },
+            {
+                "type": "list",
+                "ordered": true,
+                "items": [
+                    "从OptiFine官网下载对应版本的安装包",
+                    "双击运行下载的.jar文件",
+                    "点击'Install'按钮进行安装",
+                    "安装完成后，在Minecraft启动器中选择OptiFine配置文件启动游戏"
+                ]
+            },
+            {
+                "type": "heading",
+                "text": "性能比较",
+                "level": 2
+            },
+            {
+                "type": "paragraph",
+                "text": "以下是使用OptiFine前后的性能对比数据："
+            },
+            {
+                "type": "table",
+                "headers": ["场景", "无OptiFine (FPS)", "有OptiFine (FPS)"],
+                "rows": [
+                    ["平原", "45", "120"],
+                    ["森林", "35", "90"],
+                    ["村庄", "30", "85"],
+                    ["下界", "50", "110"]
+                ]
+            },
+            {
+                "type": "image",
+                "src": "https://i.imgur.com/ABC123.png",
+                "alt": "OptiFine设置界面",
+                "caption": "OptiFine的详细图形设置选项"
+            }
+        ]
+    }
+]
