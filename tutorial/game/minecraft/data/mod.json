@@ -196,6 +196,90 @@
                 "type": "heading",
                 "text": "第四部分：下载官方启动器 Minecraft Launcher 安装包",
                 "level": 2
+            },
+            {
+                "type": "heading",
+                "text": "1. 回到微软商店，点击安装，下载，安装",
+                "level": 3
+            },
+            {
+                "type": "image",
+                "src": "./images/16.webp"
+            },
+            {
+                "type": "image",
+                "src": "./images/17.webp"
+            },
+            {
+                "type": "image",
+                "src": "./images/18.webp"
+            },
+            {
+                "type": "heading",
+                "text": "2. 耐心等待安装完成",
+                "level": 3
+            },
+            {
+                "type": "image",
+                "src": "./images/19.webp"
+            },
+            {
+                "type": "heading",
+                "text": "3. 在开始菜单中找到刚刚安装好的Minecraft，点击Minecraft Launcher",
+                "level": 3
+            },
+            {
+                "type": "image",
+                "src": "./images/20.webp"
+            },
+            {
+                "type": "heading",
+                "text": "4. 点击下方“SGIN IN WITH MINECRAFT”进行登录，请注意，您登录的微软账号需要是购买时的账号。",
+                "level": 3
+            },
+            {
+                "type": "image",
+                "src": "./images/21.webp"
+            },
+            {
+                "type": "heading",
+                "text": "5. 若为首次登录，则会弹出如下窗口，请输入你的 Xbox 昵称（注意！一旦设置无法修改！），设置好后点击“下一步”。",
+                "level": 3
+            },
+            {
+                "type": "blockquote",
+                "text": ">>> 请注意，若之前已经拥有XBOX账户，则该弹窗不会出现。 <<<"
+            },
+            {
+                "type": "image",
+                "src": "./images/22.webp"
+            },
+            {
+                "type": "heading",
+                "text": "6. 你可以选择是否发送可选数据，设置好后点击“现在就开始吧”—“下一步”",
+                "level": 3
+            },
+            {
+                "type": "image",
+                "src": "./images/23.webp"
+            },
+            {
+                "type": "image",
+                "src": "./images/24.webp"
+            },
+            {
+                "type": "heading",
+                "text": "7. 欢迎进入Minecraft的奇妙世界！",
+                "level": 3
+            },
+            {
+                "type": "image",
+                "src": "./images/25.webp"
+            },
+            {
+                "type": "heading",
+                "text": "第五部分：设置你的 Minecraft ID",
+                "level": 2
             }
         ]
     },
