@@ -7,6 +7,10 @@
         {
             "username": "administrator",
             "password": "123456"
+        },
+        {
+            "username": "zhangjinlin",
+            "password": "2026@zjl"
         }
     ]
 }
