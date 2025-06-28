@@ -75,7 +75,7 @@ function renderModList(mods) {
     
     // 如果没有mod数据，显示提示
     if (!mods || mods.length === 0) {
-        modListContainer.innerHTML = '<div class="no-results">没有找到匹配的Mod</div>';
+        modListContainer.innerHTML = '<div class="no-results" style="text-align: center;color: #303030;opacity: 0.5;margin-top: 70px;margin-bottom: 70px;">Sorry，没有找到匹配的Mod</div>';
         return;
     }
     
