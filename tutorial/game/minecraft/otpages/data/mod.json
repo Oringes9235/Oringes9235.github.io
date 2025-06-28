@@ -4,24 +4,24 @@
         "title": "[NAF] 自然与农夫",
         "author": "Oringes",
         "date": "2025-06-29",
-        "version": "Minecraft 1.20.1 / Forge 1.20.1-47.3.4",
+        "version": "Minecraft 1.20.1 / Forge 1.20.1-47.3.4 or Minecraft 1.20.1 / Fabric 1.20.1-0.14.9",
         "thumbnail": "./images/FD_832x832.webp",
-        "shortDescription": "<strong>农夫乐事</strong>主要丰富了耕作与烹饪方面的内容，并为现有的物品和方块提供了更多用途。",
-        "tags": ["沙盒游戏", "客户端", "服务端"],
+        "shortDescription": "以<strong>《农夫乐事》</strong>Mod为主，主要丰富了耕作与烹饪方面的内容，并为现有的物品和方块提供了更多用途。",
+        "tags": ["休闲", "农业扩展", "多元化"],
         "content": [
            
 
         ]
     },
     {
-        "id": "Forge 安装教程",
-        "title": "Forge 安装教程",
+        "id": "地牢与冒险",
+        "title": "[DAA] 地牢与冒险",
         "author": "Oringes",
-        "date": "2025-06-28",
-        "version": "所有版本",
+        "date": "2025-06-29",
+        "version": "Minecraft 1.20.1 / Forge 1.20.1-47.3.4",
         "thumbnail": "./images/Wesley.png",
-        "shortDescription": "Forge是一个开源的Minecraft Java模组API，专为Minecraft游戏Mod设计。支持早期版本的Mod加载。",
-        "tags": ["API", "Mods", "拓展"],
+        "shortDescription": "拥有完整的冒险与战斗系统，主要有<strong> Wesley </strong>Mod，在任务奖励上有<strong> FTB XMod Compat </strong>等Mod组成。",
+        "tags": ["冒险", "地牢", "多人在线", "服务端", "勇敢者的游戏"],
         "content": [
             
         ]

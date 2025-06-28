@@ -6,7 +6,7 @@
         "date": "2025-06-28",
         "version": "所有版本",
         "thumbnail": "./images/Minecraft-Java-Edition-安装教程/MC-OV-logo_300x300.png",
-        "shortDescription": "《我的世界》（Minecraft）是一款沙盒类电子游戏。",
+        "shortDescription": "<strong>《我的世界》（Minecraft）</strong>是一款沙盒类电子游戏。",
         "tags": ["沙盒游戏", "客户端", "服务端", "单人", "多人", "Mods"],
         "content": [
             {
@@ -21,7 +21,7 @@
             },
             {
                 "type": "paragraph",
-                "text": "Minecraft Java Edition是一款由 Mojang Studios 开发的沙盒游戏，于2009年11月18日发布。"
+                "text": "<strong>Minecraft Java Edition</strong>是一款由 Mojang Studios 开发的沙盒游戏，于2009年11月18日发布。"
             },
             {
                 "type": "heading",
@@ -32,7 +32,7 @@
                 "type": "list",
                 "items":[
                     "一台可以上网的电脑",
-                    "支付宝并且里面还有 ¥89",
+                    "<strong>支付宝</strong>并且里面还有 ¥89",
                     "一个可以使用并可以接收到消息的邮箱账号",
                     "准备一个密码"
                 ]
@@ -76,12 +76,12 @@
             },
             {
                 "type": "heading",
-                "text": "第二部分：在 Microsoft Store 中搜索 Minecraft",
+                "text": "第二部分：在 Microsoft Store 中搜索<strong> Minecraft </strong>",
                 "level": 2
             },
             {
                 "type": "blockquote",
-                "text": ">>> 请注意，以下步骤均需要在已经登录 Microsoft 账号后进行 <<<"
+                "text": ">>><strong> 请注意，以下步骤均需要在已经登录 Microsoft 账号后进行 </strong><<<"
             },
             {
                 "type": "heading",
@@ -90,7 +90,7 @@
             },
             {
                 "type": "heading",
-                "text": "2. 搜索栏输入“Minecraft”，回车搜索（或者鼠标点击“放大镜”小箭头）",
+                "text": "2. 搜索栏输入“<strong>Minecraft</strong>”，回车搜索（或者鼠标点击“放大镜”小箭头）",
                 "level": 3
             },
             {
@@ -122,7 +122,7 @@
             },
             {
                 "type": "heading",
-                "text": "1. 在付款方式中选择 支付宝，然后点击购买",
+                "text": "1. 在付款方式中选择 <strong>支付宝</strong>，然后点击购买",
                 "level": 3
             },
             {
@@ -149,7 +149,7 @@
             },
             {
                 "type": "blockquote",
-                "text": ">>> 如果你已经在 Microsoft Store 上购买过物品，则可能不会出现下面的弹窗，请直接跳转步骤 4 <<<"
+                "text": ">>><strong> 如果你已经在 Microsoft Store 上购买过物品，则可能不会出现下面的弹窗，请直接跳转步骤 4 </strong><<<"
             },
             {
                 "type": "image",
@@ -171,7 +171,7 @@
             },
             {
                 "type": "blockquote",
-                "text": ">>> 不需要填写很详细，随便填写就好，地址不会对购买有任何影响。 <<<"
+                "text": ">>><strong> 不需要填写很详细，随便填写就好，地址不会对购买有任何影响。 </strong><<<"
             },
             {
                 "type": "image",
@@ -179,7 +179,7 @@
             },
             {
                 "type": "heading",
-                "text": "6. 点击“购买”按钮，随后就会进行静默扣款，你可以在支付宝中看到交易记录",
+                "text": "6. 点击 “<strong>购买</strong>” 按钮，随后就会进行静默扣款，你可以在支付宝中看到交易记录",
                 "level": 3
             },
             {
@@ -192,7 +192,7 @@
             },
             {
                 "type": "paragraph",
-                "text": "恭喜你拥有了Minecraft Java正版帐号了！"
+                "text": "<strong>恭喜你拥有了Minecraft Java正版帐号了！</strong>"
             },
             {
                 "type": "heading",
@@ -227,7 +227,7 @@
             },
             {
                 "type": "heading",
-                "text": "3. 在开始菜单中找到刚刚安装好的Minecraft，点击Minecraft Launcher",
+                "text": "3. 在开始菜单中找到刚刚安装好的Minecraft，点击<strong>Minecraft Launcher</strong>",
                 "level": 3
             },
             {
@@ -236,7 +236,7 @@
             },
             {
                 "type": "heading",
-                "text": "4. 点击下方“SGIN IN WITH MINECRAFT”进行登录，请注意，您登录的微软账号需要是购买时的账号。",
+                "text": "4. 点击下方“<strong>SGIN IN WITH MINECRAFT</strong>”进行登录，请注意，您登录的微软账号需要是购买时的账号。",
                 "level": 3
             },
             {
@@ -250,7 +250,7 @@
             },
             {
                 "type": "blockquote",
-                "text": ">>> 请注意，若之前已经拥有XBOX账户，则该弹窗不会出现。 <<<"
+                "text": ">>><strong> 请注意，若之前已经拥有XBOX账户，则该弹窗不会出现。 </strong><<<"
             },
             {
                 "type": "image",
@@ -258,7 +258,7 @@
             },
             {
                 "type": "heading",
-                "text": "6. 你可以选择是否发送可选数据，设置好后点击“现在就开始吧”—“下一步”",
+                "text": "6. 你可以选择是否发送可选数据，设置好后点击-> “现在就开始吧” —> “下一步” ",
                 "level": 3
             },
             {
@@ -294,7 +294,7 @@
             },
             {
                 "type": "blockquote",
-                "text": ">>> 请注意，若再次出现此类提示，继续点击“继续浏览该网站”！！！ <<<"
+                "text": ">>><strong> 请注意，若再次出现此类提示，继续点击“继续浏览该网站”！！！ </strong><<<"
             },
             {
                 "type": "image",
@@ -302,7 +302,7 @@
             },
             {
                 "type": "heading",
-                "text": "2. 右上角“账户”—“登录”，登录你刚刚购买的账号",
+                "text": "2. 点击右上角-> “账户” —> “登录”，登录你刚刚购买的账号",
                 "level": 3
             },
             {
@@ -341,7 +341,7 @@
             },
             {
                 "type": "blockquote",
-                "text": ">>> 官方启动器无法加载Fabric、Forge和Mod扩展，此时第三方启动器可以很好的解决这个问题。<<<"
+                "text": ">>><strong> 官方启动器无法加载Fabric、Forge和Mod扩展，此时第三方启动器可以很好的解决这个问题。 </strong><<<"
             },
             {
                 "type": "paragraph",
@@ -349,15 +349,15 @@
             },
             {
                 "type": "paragraph",
-                "text": "什么是Fabric和Forge？"
+                "text": "什么是<strong>Fabric</strong>和<strong>Forge</strong>？"
             },
             {
                 "type": "paragraph",
-                "text": "Forge 和 Fabric 是 Minecraft 中两种主要的 Mod 加载器，它们各自有不同的特点和适用场景。Forge 是一种老牌的 Mod 加载器，适用于 Minecraft 的多个版本。它的主要特点是大型和封闭。Fabric 是一种较新的 mod 加载器，适用于 Minecraft 的较新版本。它的主要特点是模块化和开放。"
+                "text": "<strong>Forge</strong> 和 <strong>Fabric</strong> 是 Minecraft 中两种主要的 Mod 加载器，它们各自有不同的特点和适用场景。Forge 是一种老牌的 Mod 加载器，适用于 Minecraft 的多个版本。它的主要特点是大型和封闭。Fabric 是一种较新的 mod 加载器，适用于 Minecraft 的较新版本。它的主要特点是模块化和开放。"
             },
             {
                 "type": "heading",
-                "text": "1. 下载HMCL (Hello Minecraft Launcher)启动器",
+                "text": "1. 下载<strong>HMCL (Hello Minecraft Launcher)启动器</strong>",
                 "level": 3
             },
             {
@@ -366,7 +366,7 @@
             },
             {
                 "type": "paragraph",
-                "text": "记住访问密码为“5267”。"
+                "text": "记住访问密码为“<strong>5267</strong>”。"
             },
             {
                 "type": "image",
@@ -374,7 +374,7 @@
             },
             {
                 "type": "heading",
-                "text": "2. 输入访问密码后，点击“HMCL-X.X.XX.zip”的标签，并且用普通下载方式下载",
+                "text": "2. 输入访问密码后，点击“<strong>HMCL-X.X.XX.zip</strong>”的字样，并且用普通下载方式下载",
                 "level": 3
             },
             {
@@ -387,7 +387,7 @@
             },
             {
                 "type": "heading",
-                "text": "3. 下载完成后，在“C:/Users/[你的用户名]/Downloads/”下，找到下载的压缩包文件，解压",
+                "text": "3. 下载完成后，在“<strong>C:/Users/[你的用户名]/Downloads/</strong>”下，找到下载的压缩包文件，解压",
                 "level": 3
             },
             {
@@ -396,7 +396,7 @@
             },
             {
                 "type": "paragraph",
-                "text": "先在“C:/”下创建一个名为“Minecraft”的文件夹，然后在回到刚刚解压的文件夹目录下，将“HMCL-X.X.XX.exe”文件复制到“C:/Minecraft”文件夹下。"
+                "text": "先在“<strong>C:/</strong>”下创建一个名为“<strong>Minecraft</strong>”的文件夹，然后在回到刚刚解压的文件夹目录下，将“<strong>HMCL-X.X.XX.exe</strong>”文件复制到“<strong>C:/Minecraft</strong>”文件夹下。"
             },
             {
                 "type": "image",
@@ -408,7 +408,7 @@
             },
             {
                 "type": "paragraph",
-                "text": "在打开“C:/Minecraft”文件夹后，点击运行“HMCL-X.X.XX.exe”文件。"
+                "text": "在打开“<strong>C:/Minecraft</strong>”文件夹后，点击运行“<strong>HMCL-X.X.XX.exe</strong>”文件。"
             },
             {
                 "type": "heading",
@@ -429,7 +429,7 @@
             },
             {
                 "type": "paragraph",
-                "text": "记住这里的验证代码如“BHCQSSGF”，待自动跳转到浏览器中进行验证的时候，按照提示输入验证代码。"
+                "text": "记住这里的验证代码如“<strong>BHCQSSGF</strong>”，待自动跳转到浏览器中进行验证的时候，按照提示输入验证代码。"
             },
             {
                 "type": "image",
@@ -441,7 +441,7 @@
             },
             {
                 "type": "paragraph",
-                "text": "然后点击下方的“允许访问”按钮，之后进行身份验证即可。"
+                "text": "然后点击下方的“<strong>允许访问</strong>”按钮，之后进行身份验证即可。"
             },
             {
                 "type": "image",
@@ -449,7 +449,7 @@
             },
             {
                 "type": "heading",
-                "text": "恭喜！在完成验证后，现在你可以开始你的完整版Minecraft之旅 和 无数Mod的扩展内容了！",
+                "text": "<strong>恭喜！</strong>在完成验证后，现在你可以开始你的完整版Minecraft之旅 和 无数Mod的扩展内容了！",
                 "level": 2
             },
             {
@@ -458,7 +458,7 @@
             },
             {
                 "type": "blockquote",
-                "text": ">>> 在接下来的Minecraft之旅中你将学习到如何设置启动器，如何安装Mod加载器，如何管理你的mod文件，等等的技能。这是一个漫长的旅行，你会一次次的碰到代码启动失败，并一次次通过浏览器访问，来搜索解决方案；你会一次次的碰到客户端与服务端链接同步的问题，并一次次尝试增删文件来解决问题；无论什么，最终的你都将得到Minecraft所带来的一切！一切问题都可以被解决的。 <<<"
+                "text": ">>><strong> 在接下来的Minecraft之旅中你将学习到如何设置启动器，如何安装Mod加载器，如何管理你的mod文件，等等的技能。这是一个漫长的旅行，你会一次次的碰到代码启动失败，并一次次通过浏览器访问，来搜索解决方案；你会一次次的碰到客户端与服务端链接同步的问题，并一次次尝试增删文件来解决问题；无论什么，最终的你都将得到Minecraft所带来的一切！一切问题都可以被解决的。 </strong><<<"
             }
 
         ]
@@ -470,7 +470,7 @@
         "date": "2025-06-28",
         "version": "所有版本",
         "thumbnail": "./images/Forge-安装教程/Forge_embed_logo_256x200.png",
-        "shortDescription": "Forge是一个开源的Minecraft Java模组API，专为Minecraft游戏Mod设计。支持早期版本的Mod加载。",
+        "shortDescription": "<strong>Forge</strong>是一个开源的Minecraft Java模组API，专为Minecraft游戏Mod设计。支持早期版本的Mod加载。",
         "tags": ["API", "Mods", "拓展", "开源", "库"],
         "content": [
             {
@@ -481,8 +481,8 @@
             {
                 "type": "list",
                 "items": [
-                    "一、为首次下载的Minecraft版本安装",
-                    "二、为已经下载的Minecraft版本安装"
+                    "一、为<strong>首次下载</strong>的Minecraft版本安装",
+                    "二、为<strong>已经下载</strong>的Minecraft版本安装"
                 ]
             },
             {
@@ -492,7 +492,7 @@
             },
             {
                 "type": "paragraph",
-                "text": "Forge是一个开源的Minecraft Java模组API，专为Minecraft游戏Mod设计。"
+                "text": "Forge是一个开源的Minecraft Java模组<strong>API</strong>，专为Minecraft游戏Mod设计。"
             },
             {
                 "type": "heading",
@@ -604,7 +604,7 @@
             },
             {
                 "type": "heading",
-                "text": "4. 下载完成后，点击“OK（完成）”以返回",
+                "text": "4. 下载完成后，点击“<strong>OK（完成）</strong>”以返回",
                 "level": 3
             },
             {
@@ -626,7 +626,7 @@
             },
             {
                 "type": "heading",
-                "text": "6. 在名称后面添加“-forge”标识以便区分，完成后点击“OK（完成）”返回",
+                "text": "6. 在名称后面添加“-forge”标识以便区分，完成后点击“<strong>OK（完成）</strong>”返回",
                 "level": 3
             },
             {
@@ -655,7 +655,7 @@
         "date": "2025-06-28",
         "version": "所有版本",
         "thumbnail": "./images/Fabric-安装教程/Fabric_logo_480x300.png",
-        "shortDescription": "Fabric是Minecraft Java中的一个轻量级模组加载器，主要用于1.14及以上版本。",
+        "shortDescription": "<strong>Fabric</strong>是Minecraft Java中的一个轻量级模组加载器，主要用于1.14及以上版本。",
         "tags": ["API", "Mods", "拓展", "开源", "库"],
         "content": [
             {
@@ -669,7 +669,7 @@
             },
             {
                 "type": "heading",
-                "text": "敬请期待词条更新！",
+                "text": "<strong>敬请期待词条更新！</strong>",
                 "level": 2
             }
         ]
