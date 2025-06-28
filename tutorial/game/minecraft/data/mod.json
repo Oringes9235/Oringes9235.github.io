@@ -475,6 +475,18 @@
         "content": [
             {
                 "type": "heading",
+                "text": "目录",
+                "level": 2
+            },
+            {
+                "type": "list",
+                "items": [
+                    "一、为首次下载的Minecraft版本安装",
+                    "二、为已经下载的Minecraft版本安装"
+                ]
+            },
+            {
+                "type": "heading",
                 "text": "简介",
                 "level": 2
             },
@@ -484,8 +496,155 @@
             },
             {
                 "type": "heading",
-                "text": "敬请期待词条更新！",
+                "text": "一、为首次下载的Minecraft版本安装",
                 "level": 2
+            },
+            {
+                "type": "heading",
+                "text": "1. 在HMCL启动其中找到“下载版本的”标签",
+                "level": 3
+            },
+            {
+                "type": "image",
+                "src": "./images/Forge-安装教程/1.webp"
+            },
+            {
+                "type": "heading",
+                "text": "2. 找到相应的Minecraft版本标签，并点击",
+                "level": 3
+            },
+            {
+                "type": "image",
+                "src": "./images/Forge-安装教程/2.webp"
+            },
+            {
+                "type": "heading",
+                "text": "3. 点击带有Forge图标和字样的标签",
+                "level": 3
+            },
+            {
+                "type": "image",
+                "src": "./images/Forge-安装教程/3.webp"
+            },
+            {
+                "type": "heading",
+                "text": "4. 选择相应的Forge版本，并点击版本号标签",
+                "level": 3
+            },
+            {
+                "type": "image",
+                "src": "./images/Forge-安装教程/4.webp"
+            },
+            {
+                "type": "heading",
+                "text": "5. 点击下方“下载（安装）”按钮，并等待下载安装完成",
+                "level": 3
+            },
+            {
+                "type": "image",
+                "src": "./images/Forge-安装教程/5.webp"
+            },
+            {
+                "type": "heading",
+                "text": "6. 按图示点击以返回主页",
+                "level": 3
+            },
+            {
+                "type": "image",
+                "src": "./images/Forge-安装教程/6.webp"
+            },
+            {
+                "type": "image",
+                "src": "./images/Forge-安装教程/7.webp"
+            },
+            {
+                "type": "heading",
+                "text": "现在，你可以点击在图中所指位置的标签、按钮，来查看你下载的所有版本了！！！",
+                "level": 3
+            },
+            {
+                "type": "image",
+                "src": "./images/Forge-安装教程/8.webp"
+            },
+            {
+                "type": "heading",
+                "text": "二、为已经下载的Minecraft版本安装",
+                "level": 2
+            },
+            {
+                "type": "heading",
+                "text": "1. 在HMCL启动其中找到“版本管理”的标签，并点击",
+                "level": 3
+            },
+            {
+                "type": "image",
+                "src": "./images/Forge-安装教程/9.webp"
+            },
+            {
+                "type": "heading",
+                "text": "2. 选择如图位置的加载器按钮",
+                "level": 3
+            },
+            {
+                "type": "image",
+                "src": "./images/Forge-安装教程/10.webp"
+            },
+            {
+                "type": "heading",
+                "text": "3. 选择Forge，和Forge的版本，并点击后等待下载完成",
+                "level": 3
+            },
+            {
+                "type": "image",
+                "src": "./images/Forge-安装教程/11.webp"
+            },
+            {
+                "type": "image",
+                "src": "./images/Forge-安装教程/12.webp"
+            },
+            {
+                "type": "heading",
+                "text": "4. 下载完成后，点击“OK（完成）”以返回",
+                "level": 3
+            },
+            {
+                "type": "image",
+                "src": "./images/Forge-安装教程/13.webp"
+            },
+            {
+                "type": "heading",
+                "text": "5. 点击图示中的按钮，为版本添加Forge注释",
+                "level": 3
+            },
+            {
+                "type": "image",
+                "src": "./images/Forge-安装教程/14.webp"
+            },
+            {
+                "type": "image",
+                "src": "./images/Forge-安装教程/15.webp"
+            },
+            {
+                "type": "heading",
+                "text": "6. 在名称后面添加“-forge”标识以便区分，完成后点击“OK（完成）”返回",
+                "level": 3
+            },
+            {
+                "type": "image",
+                "src": "./images/Forge-安装教程/16.webp"
+            },
+            {
+                "type": "heading",
+                "text": "7. 返回主页即可",
+                "level": 3
+            },
+            {
+                "type": "image",
+                "src": "./images/Forge-安装教程/17.webp"
+            },
+            {
+                "type": "image",
+                "src": "./images/Forge-安装教程/18.webp"
             }
         ]
     },
