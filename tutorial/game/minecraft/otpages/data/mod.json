@@ -1,0 +1,29 @@
+[
+    {
+        "id": "自然与农夫",
+        "title": "[NAF] 自然与农夫",
+        "author": "Oringes",
+        "date": "2025-06-29",
+        "version": "Minecraft 1.20.1 / Forge 1.20.1-47.3.4",
+        "thumbnail": "./images/FD_832x832.webp",
+        "shortDescription": "<strong>农夫乐事</strong>主要丰富了耕作与烹饪方面的内容，并为现有的物品和方块提供了更多用途。",
+        "tags": ["沙盒游戏", "客户端", "服务端"],
+        "content": [
+           
+
+        ]
+    },
+    {
+        "id": "Forge 安装教程",
+        "title": "Forge 安装教程",
+        "author": "Oringes",
+        "date": "2025-06-28",
+        "version": "所有版本",
+        "thumbnail": "./images/Wesley.png",
+        "shortDescription": "Forge是一个开源的Minecraft Java模组API，专为Minecraft游戏Mod设计。支持早期版本的Mod加载。",
+        "tags": ["API", "Mods", "拓展"],
+        "content": [
+            
+        ]
+    }
+]
