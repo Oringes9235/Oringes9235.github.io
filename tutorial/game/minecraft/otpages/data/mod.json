@@ -9,7 +9,11 @@
         "shortDescription": "以<strong>《农夫乐事》</strong>Mod为主，主要丰富了耕作与烹饪方面的内容，并为现有的物品和方块提供了更多用途。",
         "tags": ["休闲", "农业扩展", "多元化"],
         "content": [
-           
+           {
+                "type": "heading",
+                "text": "<strong>敬请期待词条更新！</strong>",
+                "level": 2
+            }
 
         ]
     },
@@ -23,7 +27,11 @@
         "shortDescription": "拥有完整的冒险与战斗系统，主要有<strong> Wesley </strong>Mod，在任务奖励上有<strong> FTB XMod Compat </strong>等Mod组成。",
         "tags": ["冒险", "地牢", "多人在线", "服务端", "勇敢者的游戏"],
         "content": [
-            
+            {
+                "type": "heading",
+                "text": "<strong>敬请期待词条更新！</strong>",
+                "level": 2
+            }
         ]
     }
 ]
