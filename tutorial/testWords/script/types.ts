@@ -18,4 +18,5 @@ interface TestWord {
     chinese: string;
     partOfSpeech: string;
     isEnglishToChinese: boolean;
+    wordData: Word;
 }

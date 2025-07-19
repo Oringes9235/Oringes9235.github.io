@@ -51,7 +51,8 @@ function generateTestWords(words, count) {
             english: word.english,
             chinese: word.chinese[index],
             partOfSpeech: word.partsOfSpeech[index],
-            isEnglishToChinese
+            isEnglishToChinese,
+            wordData: word // 保留原始单词数据
         });
     }
     
@@ -65,12 +66,16 @@ function generateTestWords(words, count) {
  * @returns {boolean} 是否正确
  */
 function checkAnswer(userAnswer, testWord) {
+    const userAnswerLower = userAnswer.trim().toLowerCase();
+    
     if (testWord.isEnglishToChinese) {
-        // 英译中：比较中文答案
-        return userAnswer.trim().toLowerCase() === testWord.chinese.toLowerCase();
+        // 英译中：检查用户答案是否匹配任何中文释义
+        return testWord.wordData.chinese.some(chinese => 
+            chinese.toLowerCase() === userAnswerLower
+        );
     } else {
-        // 中译英：比较英文答案
-        return userAnswer.trim().toLowerCase() === testWord.english.toLowerCase();
+        // 中译英：检查用户答案是否匹配英文单词
+        return userAnswerLower === testWord.english.toLowerCase();
     }
 }
 

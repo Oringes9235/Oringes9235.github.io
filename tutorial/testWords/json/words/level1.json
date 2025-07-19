@@ -20,8 +20,8 @@
     {
         "id": "4",
         "english": "happy",
-        "chinese": ["快乐的"],
-        "partsOfSpeech": ["adj."]
+        "chinese": ["快乐的", "开心的"],
+        "partsOfSpeech": ["adj.", "adj."]
     },
     {
         "id": "5",

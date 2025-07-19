@@ -304,7 +304,7 @@ function checkUserAnswer() {
     // 显示完整信息
     let fullInfo = '';
     if (currentWord.isEnglishToChinese) {
-        fullInfo = `${currentWord.english} (${currentWord.partOfSpeech}): ${currentWord.chinese}`;
+        fullInfo = `${currentWord.english} (${currentWord.partOfSpeech}): ${currentWord.wordData.chinese.join(" / ")}`;
     } else {
         fullInfo = `${currentWord.chinese}: ${currentWord.english} (${currentWord.partOfSpeech})`;
     }
