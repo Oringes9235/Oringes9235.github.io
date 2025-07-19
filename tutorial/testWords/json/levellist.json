@@ -1,16 +1,44 @@
 [
     {
         "id": "1",
-        "title": "初级词汇",
-        "tags": ["基础", "入门"],
-        "wordCount": 50,
-        "wordsFile": "level1.json"
+        "title": "Season 1 - Day 1",
+        "tags": ["基础", "高考", "百词斩"],
+        "wordCount": 64,
+        "wordsFile": "Day_1.json"
     },
     {
         "id": "2",
-        "title": "中级词汇",
-        "tags": ["日常", "常用"],
-        "wordCount": 100,
-        "wordsFile": "level2.json"
+        "title": "Season 1 - Day 2",
+        "tags": ["基础", "高考", "百词斩"],
+        "wordCount": 64,
+        "wordsFile": "Day_2.json"
+    },
+    {
+        "id": "3",
+        "title": "Season 1 - Day 3",
+        "tags": ["基础", "高考", "百词斩"],
+        "wordCount": 64,
+        "wordsFile": "Day_3.json"
+    },
+    {
+        "id": "4",
+        "title": "Season 1 - Day 4",
+        "tags": ["基础", "高考", "百词斩"],
+        "wordCount": 64,
+        "wordsFile": "Day_4.json"
+    },
+    {
+        "id": "5",
+        "title": "Season 1 - Day 5",
+        "tags": ["基础", "高考", "百词斩"],
+        "wordCount": 64,
+        "wordsFile": "Day_5.json"
+    },
+    {
+        "id": "6",
+        "title": "Season 1 - Day 6",
+        "tags": ["基础", "高考", "百词斩"],
+        "wordCount": 64,
+        "wordsFile": "Day_6.json"
     }
 ]

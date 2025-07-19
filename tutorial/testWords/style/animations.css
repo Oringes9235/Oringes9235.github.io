@@ -99,13 +99,13 @@
         backdrop-filter: blur(0);
     }
     to {
-        backdrop-filter: blur(5px);
+        backdrop-filter: blur(10px);
     }
 }
 
 @keyframes blurOut {
     from {
-        backdrop-filter: blur(5px);
+        backdrop-filter: blur(10px);  /* 保持与blurIn一致 */
     }
     to {
         backdrop-filter: blur(0);

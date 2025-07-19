@@ -62,6 +62,12 @@ async function initApp() {
             }
         }
     });
+    // 监听回车键检查单词是否正确
+    answerInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') {
+            checkUserAnswer();
+        }
+    });
     // 绑定结果弹窗按钮事件
     document.getElementById('restart-btn').addEventListener('click', async () => {
         resultModal.querySelector('.modal-content').classList.add('slide-out');

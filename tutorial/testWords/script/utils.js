@@ -42,7 +42,7 @@ function generateTestWords(words, count) {
     
     for (let i = 0; i < Math.min(count, shuffledWords.length); i++) {
         const word = shuffledWords[i];
-        const isEnglishToChinese = Math.random() > 0.5;
+        const isEnglishToChinese = true;
         
         // 随机选择一个中文释义和对应的词性
         const index = Math.floor(Math.random() * word.chinese.length);

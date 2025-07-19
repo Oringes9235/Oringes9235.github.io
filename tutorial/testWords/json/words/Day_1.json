@@ -1,0 +1,386 @@
+[
+    {
+        "id": "1",
+        "english": "diamond",
+        "chinese": ["钻石", "方块牌", "菱形", "棒球场的内场"],
+        "partsOfSpeech": ["n.", "n.", "n.", "n."]
+    },
+    {
+        "id": "2",
+        "english": "garden",
+        "chinese": ["花园", "菜园", "院子"],
+        "partsOfSpeech": ["n.", "n.", "n."]
+    },
+    {
+        "id": "3",
+        "english": "fascination",
+        "chinese": ["入迷", "魔力", "迷恋", "吸引力"],
+        "partsOfSpeech": ["n.", "n.", "n.", "n."]
+    },
+    {
+        "id": "4",
+        "english": "difference",
+        "chinese": ["差别", "差异", "不同"],
+        "partsOfSpeech": ["n.", "n.", "n."]
+    },
+    {
+        "id": "5",
+        "english": "stadium",
+        "chinese": ["体育场", "露天大型运动场", "运动场"],
+        "partsOfSpeech": ["n.", "n.", "n."]
+    },
+    {
+        "id": "6",
+        "english": "reply",
+        "chinese": ["回答", "答复", "回应", "回复"],
+        "partsOfSpeech": ["v.", "n.", "v.", "v."]
+    },
+    {
+        "id": "7",
+        "english": "straw",
+        "chinese": ["吸管", "稻草", "麦秆"],
+        "partsOfSpeech": ["n.", "n.", "n."]
+    },
+    {
+        "id": "8",
+        "english": "beg",
+        "chinese": ["乞求", "恳求", "乞讨", "祈求"],
+        "partsOfSpeech": ["v.", "v.", "v.", "v."]
+    },
+    {
+        "id": "9",
+        "english": "occupy",
+        "chinese": ["占领", "侵占", "任职", "占据"],
+        "partsOfSpeech": ["v.", "v.", "v.", "v."]
+    },
+    {
+        "id": "10",
+        "english": "bacon",
+        "chinese": ["培根", "熏猪肉"],
+        "partsOfSpeech": ["n.", "n."]
+    },
+    {
+        "id": "11",
+        "english": "outspoken",
+        "chinese": ["直言的", "坦率的", "直言不讳的"],
+        "partsOfSpeech": ["adj.", "adj.", "adj."]
+    },
+    {
+        "id": "12",
+        "english": "struggle",
+        "chinese": ["奋斗", "斗争", "挣扎"],
+        "partsOfSpeech": ["n.", "v.", "v."]
+    },
+    {
+        "id": "13",
+        "english": "clone",
+        "chinese": ["克隆", "复制", "无性繁殖"],
+        "partsOfSpeech": ["v.", "v.", "n."]
+    },
+    {
+        "id": "14",
+        "english": "defend",
+        "chinese": ["保卫", "防守", "辩护", "防卫", "防护"],
+        "partsOfSpeech": ["v.", "v.", "v.", "v.", "v."]
+    },
+    {
+        "id": "15",
+        "english": "devotion",
+        "chinese": ["热爱", "奉献", "忠诚", "喜爱"],
+        "partsOfSpeech": ["n.", "n.", "n.", "n."]
+    },
+    {
+        "id": "16",
+        "english": "evaluate",
+        "chinese": ["评估", "评价", "估价"],
+        "partsOfSpeech": ["v.", "v.", "v."]
+    },
+    {
+        "id": "17",
+        "english": "kindergarten",
+        "chinese": ["幼儿园", "幼稚园"],
+        "partsOfSpeech": ["n.", "n."]
+    },
+    {
+        "id": "18",
+        "english": "enthusiast",
+        "chinese": ["爱好者", "狂热者", "热衷者", "追求者"],
+        "partsOfSpeech": ["n.", "n.", "n.", "n."]
+    },
+    {
+        "id": "19",
+        "english": "friendly",
+        "chinese": ["友好的", "友善的", "亲切的", "和善的", "善良的"],
+        "partsOfSpeech": ["adj.", "adj.", "adj.", "adj.", "adj."]
+    },
+    {
+        "id": "20",
+        "english": "dignity",
+        "chinese": ["尊严", "威严", "端庄"],
+        "partsOfSpeech": ["n.", "n.", "n."]
+    },
+    {
+        "id": "21",
+        "english": "lean",
+        "chinese": ["倾斜", "倚靠", "瘦且健康的"],
+        "partsOfSpeech": ["v.", "v.", "adj."]
+    },
+    {
+        "id": "22",
+        "english": "wonderment",
+        "chinese": ["惊奇", "惊叹", "惊讶", "惊异", "震惊"],
+        "partsOfSpeech": ["n.", "n.", "n.", "n.", "n."]
+    },
+    {
+        "id": "23",
+        "english": "compassionate",
+        "chinese": ["有同情心的", "怜悯的", "仁慈的", "有善心的"],
+        "partsOfSpeech": ["adj.", "adj.", "adj.", "adj."]
+    },
+    {
+        "id": "24",
+        "english": "demanding",
+        "chinese": ["苛求的", "要求高的", "严格的", "严苛的"],
+        "partsOfSpeech": ["adj.", "adj.", "adj.", "adj."]
+    },
+    {
+        "id": "25",
+        "english": "dry",
+        "chinese": ["弄干", "干燥的", "使干燥", "干的"],
+        "partsOfSpeech": ["v.", "adj.", "v.", "adj."]
+    },
+    {
+        "id": "26",
+        "english": "glow",
+        "chinese": ["发光", "光亮", "喜悦", "光"],
+        "partsOfSpeech": ["v.", "n.", "n.", "n."]
+    },
+    {
+        "id": "27",
+        "english": "soften",
+        "chinese": ["变柔软", "变温和", "使柔和", "变软"],
+        "partsOfSpeech": ["v.", "v.", "v.", "v."]
+    },
+    {
+        "id": "28",
+        "english": "intelligence",
+        "chinese": ["智力", "情报", "理解力", "智商"],
+        "partsOfSpeech": ["n.", "n.", "n.", "n."]
+    },
+    {
+        "id": "29",
+        "english": "cooperative",
+        "chinese": ["合作的", "协作的", "合作社"],
+        "partsOfSpeech": ["adj.", "adj.", "n."]
+    },
+    {
+        "id": "30",
+        "english": "hip",
+        "chinese": ["髋部", "臀部", "屁股."],
+        "partsOfSpeech": ["n.", "n.", "n."]
+    },
+    {
+        "id": "31",
+        "english": "tolerant",
+        "chinese": ["容忍的", "宽容的", "忍耐的", "可原谅的"],
+        "partsOfSpeech": ["adj.", "adj.", "adj.", "adj."]
+    },
+    {
+        "id": "32",
+        "english": "grind",
+        "chinese": ["折磨", "研磨", "苦差事"],
+        "partsOfSpeech": ["v.", "v.", "n."]
+    },
+    {
+        "id": "33",
+        "english": "final",
+        "chinese": ["最后的", "决定性的", "最终的"],
+        "partsOfSpeech": ["adj.", "adj.", "adj."]
+    },
+    {
+        "id": "34",
+        "english": "spatial",
+        "chinese": ["空间的", "立体的", "空间感的"],
+        "partsOfSpeech": ["adj.", "adj.", "adj."]
+    },
+    {
+        "id": "35",
+        "english": "spacecraft",
+        "chinese": ["宇宙飞船", "航天器", "飞船", "星舰"],
+        "partsOfSpeech": ["n.", "n.", "n.", "n."]
+    },
+    {
+        "id": "36",
+        "english": "year",
+        "chinese": ["年", "年龄", "年份"],
+        "partsOfSpeech": ["n.", "n.", "n."]
+    },
+    {
+        "id": "37",
+        "english": "infer",
+        "chinese": ["推断", "推论", "暗示", "推出"],
+        "partsOfSpeech": ["v.", "v.", "v.", "v."]
+    },
+    {
+        "id": "38",
+        "english": "renewal",
+        "chinese": ["新生", "更新", "复苏", "重生", "更新"],
+        "partsOfSpeech": ["n.", "n.", "n.", "n.", "n."]
+    },
+    {
+        "id": "39",
+        "english": "abundance",
+        "chinese": ["大量", "丰富", "充裕", "许多"],
+        "partsOfSpeech": ["n.", "n.", "n.", "n."]
+    },
+    {
+        "id": "40",
+        "english": "industrial",
+        "chinese": ["工业的", "产业的", "工业化的"],
+        "partsOfSpeech": ["adj.", "adj.", "adj."]
+    },
+    {
+        "id": "41",
+        "english": "ill",
+        "chinese": ["生病的", "不适的", "不充分的", "病的"],
+        "partsOfSpeech": ["adj.", "adj.", "adv.", "adj."]
+    },
+    {
+        "id": "42",
+        "english": "employee",
+        "chinese": ["雇员", "员工", "职员", "被雇者"],
+        "partsOfSpeech": ["n.", "n.", "n.", "n."]
+    },
+    {
+        "id": "43",
+        "english": "dialect",
+        "chinese": ["方言", "地方话", "土语"],
+        "partsOfSpeech": ["n.", "n.", "n."]
+    },
+    {
+        "id": "44",
+        "english": "intend",
+        "chinese": ["打算", "计划", "想要"],
+        "partsOfSpeech": ["v.", "v.", "v."]
+    },
+    {
+        "id": "45",
+        "english": "invest",
+        "chinese": ["投资", "投入", "购买"],
+        "partsOfSpeech": ["v.", "v.", "v."]
+    },
+    {
+        "id": "46",
+        "english": "determined",
+        "chinese": ["坚决的", "坚定的", "果断的"],
+        "partsOfSpeech": ["adj.", "adj.", "adj."]
+    },
+    {
+        "id": "47",
+        "english": "hunch",
+        "chinese": ["直觉", "预感", "弯腰驼背"],
+        "partsOfSpeech": ["n.", "n.", "v."]
+    },
+    {
+        "id": "48",
+        "english": "faint",
+        "chinese": ["微弱的", "昏倒", "晕厥"],
+        "partsOfSpeech": ["adj.", "v.", "n."]
+    },
+    {
+        "id": "49",
+        "english": "rain",
+        "chinese": ["雨", "雨水", "下雨"],
+        "partsOfSpeech": ["n.", "n.", "v."]
+    },
+    {
+        "id": "50",
+        "english": "brand",
+        "chinese": ["品牌", "商标", "加污名于"],
+        "partsOfSpeech": ["n.", "n.", "v."]
+    },
+    {
+        "id": "51",
+        "english": "measure",
+        "chinese": ["测量", "估量", "措施", "尺寸", "估计"],
+        "partsOfSpeech": ["v.", "v.", "n.", "n.", "n."]
+    },
+    {
+        "id": "52",
+        "english": "look out",
+        "chinese": ["当心", "留神", "注意", "小心"],
+        "partsOfSpeech": ["phr.", "phr.", "phr.", "phr."]
+    },
+    {
+        "id": "53",
+        "english": "clap",
+        "chinese": ["拍手", "鼓掌", "轻拍", "掌声"],
+        "partsOfSpeech": ["v.", "n.", "v.", "n."]
+    },
+    {
+        "id": "54",
+        "english": "evolution",
+        "chinese": ["进化", "演变", "发展", "演化"],
+        "partsOfSpeech": ["n.", "n.", "n.", "n."]
+    },
+    {
+        "id": "55",
+        "english": "dress",
+        "chinese": ["连衣裙", "打扮", "穿着", "裙子"],
+        "partsOfSpeech": ["n.", "v.", "v.", "n."]
+    },
+    {
+        "id": "56",
+        "english": "handful",
+        "chinese": ["一把", "少量", "难管的人"],
+        "partsOfSpeech": ["n.", "n.", "n."]
+    },
+    {
+        "id": "57",
+        "english": "on average",
+        "chinese": ["平均", "通常", "一般而言"],
+        "partsOfSpeech": ["phr.", "phr.", "phr."]
+    },
+    {
+        "id": "58",
+        "english": "bounce",
+        "chinese": ["弹起", "蹦跳", "弹力", "跳起", "跳跃"],
+        "partsOfSpeech": ["v.", "v.", "n.", "v.", "v."]
+    },
+    {
+        "id": "59",
+        "english": "independence",
+        "chinese": ["独立", "自立", "自主"],
+        "partsOfSpeech": ["n.", "n.", "n."]
+    },
+    {
+        "id": "60",
+        "english": "yell",
+        "chinese": ["叫喊", "大喊", "吼叫", "大叫", "大吼"],
+        "partsOfSpeech": ["v.", "v.", "v.", "v.", "v."]
+    },
+    {
+        "id": "61",
+        "english": "fear",
+        "chinese": ["害怕", "担心", "恐惧"],
+        "partsOfSpeech": ["v.", "n.", "n."]
+    },
+    {
+        "id": "62",
+        "english": "gather",
+        "chinese": ["集合", "聚集", "收集"],
+        "partsOfSpeech": ["v.", "v.", "v."]
+    },
+    {
+        "id": "63",
+        "english": "undertake",
+        "chinese": ["承担", "承包", "承诺"],
+        "partsOfSpeech": ["v.", "v.", "v."]
+    },
+    {
+        "id": "64",
+        "english": "give",
+        "chinese": ["给", "赠送", "提供"],
+        "partsOfSpeech": ["v.", "v.", "v."]
+    }
+]

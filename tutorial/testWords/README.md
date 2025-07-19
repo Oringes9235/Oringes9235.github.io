@@ -4,7 +4,7 @@
 
 ## 文件结构说明
 
-```
+```text
 word-memory-test/
 ├── index.html                 # 主HTML文件
 ├── css/
