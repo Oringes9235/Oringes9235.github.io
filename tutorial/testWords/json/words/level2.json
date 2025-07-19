@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "english": "accomplish",
+        "chinese": ["完成"],
+        "partsOfSpeech": ["v."]
+    },
+    {
+        "id": "2",
+        "english": "brilliant",
+        "chinese": ["辉煌的", "才华横溢的"],
+        "partsOfSpeech": ["adj.", "adj."]
+    },
+    {
+        "id": "3",
+        "english": "consider",
+        "chinese": ["考虑", "认为"],
+        "partsOfSpeech": ["v.", "v."]
+    },
+    {
+        "id": "4",
+        "english": "diligent",
+        "chinese": ["勤奋的"],
+        "partsOfSpeech": ["adj."]
+    },
+    {
+        "id": "5",
+        "english": "essential",
+        "chinese": ["本质的", "必需品"],
+        "partsOfSpeech": ["adj.", "n."]
+    }
+]

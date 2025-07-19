@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>单词记忆检测</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="./assets/icons/icon.svg" type="image/x-icon">
+</head>
+<body>
+    <div id="app">
+        <!-- 主页面 -->
+        <div class="page" id="home-page">
+            <!--
+            <button class="settings-btn" id="settings-btn">
+                <i class="fas fa-cog"></i>
+            </button>
+            -->
+            <a href="../../index.html" style="width: 100px;"><i class="fas fa-arrow-left"></i>返回导航页</a>
+            <div class="levels-container" id="levels-container"></div>
+        </div>
+
+        <!-- 测试页面 -->
+        <div class="page hidden" id="test-page">
+            <div class="scoreboard hidden" id="scoreboard">
+                <div class="correct">正确: <span id="correct-count">0</span></div>
+                <div class="incorrect">错误: <span id="incorrect-count">0</span></div>
+                <button class="exit-btn" id="exit-btn">
+                    <p><i class="fas fa-arrow-left"></i>返回</p>
+                </button>
+            </div>
+            
+            <div class="test-content">
+                <div class="question" id="question"></div>
+                <div class="answer-input-container">
+                    <input type="text" id="answer-input" placeholder="输入答案...">
+                    <div class="underline"></div>
+                </div>
+                <div class="result" id="result"></div>
+                <button class="check-btn" id="check-btn">检查</button>
+            </div>
+        </div>
+
+        <!-- 退出确认弹窗 -->
+        <div class="modal hidden" id="exit-modal">
+            <div class="modal-content slide-in">
+                <h3>确定要退出吗?</h3>
+                <p>您的进度将会丢失</p>
+                <div class="modal-buttons">
+                    <button class="confirm-btn" id="confirm-exit">退出</button>
+                    <button class="cancel-btn" id="cancel-exit">取消</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 测试结果弹窗 -->
+        <div class="modal hidden" id="result-modal">
+            <div class="modal-content slide-in">
+                <h3>测试完成!</h3>
+                <div class="result-stats">
+                    <p>正确: <span id="final-correct">0</span></p>
+                    <p>错误: <span id="final-incorrect">0</span></p>
+                    <p>正确率: <span id="accuracy">0%</span></p>
+                </div>
+                <div class="modal-buttons">
+                    <button class="restart-btn" id="restart-btn">再来一次</button>
+                    <button class="home-btn" id="home-btn">返回首页</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 底部固定内容 -->
+        <footer>
+            <div class="copyright">&copy; 2022 - <span id="copyright-year"></span> Oringes.cn & Xue FengPeng 保留所有权利.</div>
+            <script>
+                document.getElementById('copyright-year').textContent = new Date().getFullYear();
+            </script>
+            <a href="https://github.com/Oringes9235" target="_blank" class="github-link" style="color: #1a1e22;">
+                <i class="fab fa-github"></i>
+            </a>
+        </footer>
+    </div>
+
+    <audio id="success-sound" src="./assets/sounds/MinecraftVictoryTheme.mp3"></audio>
+
+    <script src="./script/utils.js"></script>
+    <script src="./script/types.ts"></script>
+    <script type="module" src="./script/app.js"></script>
+</body>
+</html>

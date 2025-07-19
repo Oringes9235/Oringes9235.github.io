@@ -42,6 +42,12 @@
                     "url": "./markdown/index.html",
                     "icon": "fa-edit",
                     "description": "在线Markdown编辑器"
+                },
+                {
+                    "name": "单词检测",
+                    "url": "./tutorial/testWords/index.html",
+                    "icon": "fa-book",
+                    "description": "在线单词检测页面"
                 }
             ]
         }

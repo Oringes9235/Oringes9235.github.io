@@ -1,0 +1,16 @@
+[
+    {
+        "id": "1",
+        "title": "初级词汇",
+        "tags": ["基础", "入门"],
+        "wordCount": 50,
+        "wordsFile": "level1.json"
+    },
+    {
+        "id": "2",
+        "title": "中级词汇",
+        "tags": ["日常", "常用"],
+        "wordCount": 100,
+        "wordsFile": "level2.json"
+    }
+]

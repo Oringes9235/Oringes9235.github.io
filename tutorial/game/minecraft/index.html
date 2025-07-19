@@ -50,7 +50,10 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2022 - 2025 Oringes.cn & Xue FengPeng 保留所有权利.</p>
+            <p>&copy; 2022 - <span id="copyright-year"></span> Oringes.cn & Xue FengPeng 保留所有权利.</p>
+            <script>
+                document.getElementById('copyright-year').textContent = new Date().getFullYear();
+            </script>
             <div class="social-links">
                 <a href="https://github.com/Oringes9235"><i class="fab fa-github"></i></a>
             </div>
