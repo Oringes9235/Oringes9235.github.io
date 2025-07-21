@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>代码展示平台</title>
+    <link rel="stylesheet" href="style.css">
+    <link id="theme-style" rel="stylesheet" href="themes/light.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.2.12/marked.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-left">
+                <button id="mobile-menu-btn" class="mobile-only">☰</button>
+                <h1>代码展示</h1>
+            </div>
+            <div class="header-right">
+                <button id="theme-toggle">🌓</button>
+            </div>
+        </header>
+
+        <nav id="sidebar">
+            <div class="search-box">
+                <input type="text" placeholder="搜索项目...">
+            </div>
+            <ul id="project-list">
+                <!-- 项目列表将通过JS动态生成 -->
+            </ul>
+        </nav>
+
+        <main>
+            <div class="file-explorer" id="file-explorer">
+                <!-- 文件树将通过JS动态生成 -->
+            </div>
+            <div class="code-viewer" id="code-viewer">
+                <div class="file-header" id="file-header">
+                    <span id="file-path"></span>
+                    <button id="copy-btn">复制</button>
+                </div>
+                <div class="file-content" id="file-content">
+                    <div id="readme-content"></div>
+                    <pre><code id="code-display"></code></pre>
+                </div>
+            </div>
+            <div class="stats-panel" id="stats-panel">
+                <h3>代码统计</h3>
+                <div id="language-stats">
+                    <!-- 语言统计将通过JS动态生成 -->
+                </div>
+            </div>
+        </main>
+        
+        <!-- 底部固定内容 -->
+        <footer>
+            <div class="copyright">&copy; 2022 - <span id="copyright-year"></span> Oringes.cn & Xue FengPeng 保留所有权利.</div>
+            <script>
+                document.getElementById('copyright-year').textContent = new Date().getFullYear();
+            </script>
+            <a href="https://github.com/Oringes9235" target="_blank" class="github-link" style="color: #1a1e22;">
+                <i class="fab fa-github"></i>
+            </a>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

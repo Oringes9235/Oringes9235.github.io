@@ -31,6 +31,12 @@
                     "url": "./tutorial/game/minecraft/index.html",
                     "icon": "fa-gamepad",
                     "description": "Minecraft Mod 教程介绍"
+                },
+                {
+                    "name": "Codes",
+                    "url": "./tutorial/code/index.html",
+                    "icon": "fa-code",
+                    "description": "代码仓库"
                 }
             ]
         },
