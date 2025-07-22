@@ -9,6 +9,7 @@
     --code-bg: #f6f8fa;
     --line-number-color: #6a737d;
     --code-text-color: #24292e;
+    --github-color: #1a1e22
 }
 
 pre, code {
@@ -30,6 +31,7 @@ pre, code {
     --code-bg: #161b22;
     --line-number-color: #8b949e;
     --code-text-color: #c9d1d9;
+    --github-color: #ffffff;
 }
 
 * {

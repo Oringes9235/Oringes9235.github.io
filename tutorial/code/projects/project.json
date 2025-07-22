@@ -149,6 +149,12 @@
           "path": "projects/Coffeepp/Makefile"
         },
         {
+          "name": ".gitignore",
+          "type": "file",
+          "language": "txt",
+          "path": "projects/Coffeepp/.gitignore"
+        },
+        {
           "name": "run.bat",
           "type": "file",
           "language": "batchfile",
