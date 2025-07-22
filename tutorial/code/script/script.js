@@ -242,7 +242,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
         
-        // 渲染文件树（从根目录开始）
+        // 重置为项目根目录
         renderFileTree(project.children || project.files, 0, '');
         
         // 计算并显示语言统计
@@ -250,10 +250,10 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // 渲染文件树
-    function renderFileTree(items, depth = 0, parentPath = '') {
+    function renderFileTree(items, depth = 0, currentPath = '') {
         const fileTree = document.getElementById('file-tree');
         fileTree.innerHTML = '';
-        
+
         // 如果不是根目录，添加返回上级按钮
         if (depth > 0) {
             const backItem = document.createElement('div');
@@ -264,17 +264,25 @@ document.addEventListener('DOMContentLoaded', function() {
             `;
             backItem.addEventListener('click', () => {
                 // 获取上级路径
-                const parentPathParts = parentPath.split('/');
-                parentPathParts.pop();
-                const newParentPath = parentPathParts.join('/');
+                const pathParts = currentPath.split('/');
+                pathParts.pop(); // 移除最后一级
+                const parentPath = pathParts.join('/');
                 
-                // 重新渲染上级目录
-                const parentItems = findItemsByPath(projects, newParentPath);
-                renderFileTree(parentItems, depth-1, newParentPath);
+                // 查找上级目录内容
+                let parentItems = [];
+                if (parentPath === '') {
+                    // 返回到项目根目录
+                    parentItems = currentProject.children;
+                } else {
+                    // 查找特定子目录
+                    parentItems = findItemsByPath(currentProject.children, parentPath);
+                }
+                
+                renderFileTree(parentItems, depth-1, parentPath);
             });
             fileTree.appendChild(backItem);
         }
-        
+
         // 渲染当前目录项
         items.forEach(item => {
             const div = document.createElement('div');
@@ -291,8 +299,8 @@ document.addEventListener('DOMContentLoaded', function() {
             div.addEventListener('click', (e) => {
                 if (item.type === 'folder') {
                     e.stopPropagation();
-                    const currentPath = parentPath ? `${parentPath}/${item.name}` : item.name;
-                    renderFileTree(item.children, depth+1, currentPath);
+                    const newPath = currentPath ? `${currentPath}/${item.name}` : item.name;
+                    renderFileTree(item.children, depth+1, newPath);
                 } else {
                     selectFile(item);
                 }
@@ -403,16 +411,16 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // 根据路径查找项目
-    function findItemsByPath(projects, path) {
-        if (!path) return projects;
+    function findItemsByPath(items, path) {
+        if (!path) return items;
         
         const pathParts = path.split('/');
-        let currentItems = projects;
+        let currentItems = items;
         
         for (const part of pathParts) {
             const found = currentItems.find(item => item.name === part);
-            if (!found) return [];
-            currentItems = found.children || [];
+            if (!found || !found.children) return [];
+            currentItems = found.children;
         }
         
         return currentItems;
