@@ -1,0 +1,155 @@
+{
+  "projects": {
+    "Coffee++": {
+      "basePath": "projects/Coffeepp",
+      "files": [
+        {
+          "name": ".vscode",
+          "type": "folder",
+          "path": "projects/Coffeepp/.vscode",
+          "children": [
+            {
+              "name": "settings.json",
+              "type": "file",
+              "language": "json",
+              "path": "projects/Coffeepp/.vscode/settings.json"
+            }
+          ]
+        },
+        {
+          "name": "src",
+          "type": "folder",
+          "path": "projects/Coffeepp/src",
+          "children": [
+            {
+              "name": "lexer.c",
+              "type": "file",
+              "language": "c",
+              "path": "projects/Coffeepp/src/lexer.c"
+            },
+            {
+              "name": "parser.c",
+              "type": "file",
+              "language": "c",
+              "path": "projects/Coffeepp/src/parser.c"
+            },
+            {
+              "name": "main.c",
+              "type": "file",
+              "language": "c",
+              "path": "projects/Coffeepp/src/main.c"
+            },
+            {
+              "name": "utils.c",
+              "type": "file",
+              "language": "c",
+              "path": "projects/Coffeepp/src/utils.c"
+            },
+            {
+              "name": "vm.c",
+              "type": "file",
+              "language": "c",
+              "path": "projects/Coffeepp/src/vm.c"
+            }
+          ]
+        },
+        {
+          "name": "include",
+          "type": "folder",
+          "path": "projects/Coffeepp/include",
+          "children": [
+            {
+              "name": "common.h",
+              "type": "file",
+              "language": "c",
+              "path": "projects/Coffeepp/include/common.h"
+            },
+            {
+              "name": "vm.h",
+              "type": "file",
+              "language": "c",
+              "path": "projects/Coffeepp/include/vm.h"
+            },
+            {
+              "name": "lexer.h",
+              "type": "file",
+              "language": "c",
+              "path": "projects/Coffeepp/include/lexer.h"
+            },
+            {
+              "name": "parser.h",
+              "type": "file",
+              "language": "c",
+              "path": "projects/Coffeepp/include/parser.h"
+            },
+            {
+              "name": "utils.h",
+              "type": "file",
+              "language": "c",
+              "path": "projects/Coffeepp/include/utils.h"
+            }
+          ]
+
+        },
+        {
+          "name": "docs",
+          "type": "folder",
+          "path": "projects/Coffeepp/docs",
+          "children": [
+            {
+              "name": "DEVELOPER.md",
+              "type": "file",
+              "language": "markdown",
+              "path": "projects/Coffeepp/docs/DEVELOPER.md"
+            },
+            {
+              "name": "MANUAL.md",
+              "type": "file",
+              "language": "markdown",
+              "path": "projects/Coffeepp/docs/MANUAL.md"
+
+            }
+          ]
+        },
+        {
+          "name": "examples",
+          "type": "folder",
+          "path": "projects/Coffeepp/examples",
+          "children": [
+            {
+              "name": "hello.cfp",
+              "type": "file",
+              "language": "coffeepp",
+              "path": "projects/Coffeepp/examples/hello.cfp"
+            },
+            {
+              "name": "calc.cfp",
+              "type": "file",
+              "language": "coffeepp",
+              "path": "projects/Coffeepp/examples/calc.cfp"
+            }
+          ]
+        },
+        {
+          "name": "README.md",
+          "type": "file",
+          "language": "markdown",
+          "path": "projects/Coffeepp/README.md"
+        },
+        {
+          "name": "Makefile",
+          "type": "file",
+          "language": "makfile",
+          "path": "projects/Coffeepp/Makefile"
+        },
+        {
+          "name": "run.bat",
+          "type": "file",
+          "language": "batchfile",
+          "path": "projects/Coffeepp/run.bat"
+        }
+        
+      ]
+    }
+  }
+}

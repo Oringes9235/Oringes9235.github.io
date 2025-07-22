@@ -1,0 +1,12 @@
+# test_args.cfp
+main(x, y) {
+    printf("First arg: ");
+    printf(x);
+    printf("\n");
+    
+    printf("Second arg: ");
+    printf(y);
+    printf("\n");
+    
+    ret end;
+}

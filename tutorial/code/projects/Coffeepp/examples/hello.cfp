@@ -1,0 +1,6 @@
+# Simple Hello World program
+main() {
+    print("Hello, Coffee++!");
+    print("Type Ctrl+C to exit.");
+    ret end;
+}

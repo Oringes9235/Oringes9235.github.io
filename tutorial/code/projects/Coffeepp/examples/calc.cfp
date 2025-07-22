@@ -1,0 +1,11 @@
+# Simple calculator
+main(a, b) {
+    int sum = a + b;
+    printf("Sum: ");
+    printf(sum);
+    printf("\n");
+    
+    printf.red("This is an error message\n");
+    
+    ret end;
+}

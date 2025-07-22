@@ -3,68 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>代码展示平台</title>
-    <link rel="stylesheet" href="style.css">
-    <link id="theme-style" rel="stylesheet" href="themes/light.css">
+    <title>Code Hub</title>
+    <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.2.12/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/javascript.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/python.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/html.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/css.min.js"></script>
 </head>
 <body>
     <div class="container">
-        <header>
-            <div class="header-left">
-                <button id="mobile-menu-btn" class="mobile-only">☰</button>
-                <h1>代码展示</h1>
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <h1>&ensp;<i class="fas fa-code"></i>&ensp;Code Hub</h1>
+                <a href="../../index.html" class="btn btn-primary" style="color: #1a1e22; text-decoration: none;">
+                    <i class="fas fa-arrow-left" style="margin-right: 4px;"></i>
+                    导航
+                </a>
+                <button class="menu-toggle" aria-label="Toggle menu">☰</button>
             </div>
-            <div class="header-right">
-                <button id="theme-toggle">🌓</button>
-            </div>
-        </header>
-
-        <nav id="sidebar">
             <div class="search-box">
-                <input type="text" placeholder="搜索项目...">
+                <input type="text" placeholder="搜索项目..." id="search-input">
             </div>
-            <ul id="project-list">
+            <ul class="project-list" id="project-list">
                 <!-- 项目列表将通过JS动态生成 -->
             </ul>
+            <div class="theme-toggle">
+                <button id="theme-switcher">切换主题</button>
+            </div>
         </nav>
-
-        <main>
-            <div class="file-explorer" id="file-explorer">
-                <!-- 文件树将通过JS动态生成 -->
-            </div>
-            <div class="code-viewer" id="code-viewer">
-                <div class="file-header" id="file-header">
-                    <span id="file-path"></span>
-                    <button id="copy-btn">复制</button>
+        
+        <main class="content">
+            <div class="file-explorer">
+                <div class="file-header">
+                    <h3 id="current-project">待选择项目</h3>
+                    <div class="language-stats" id="language-stats">
+                        <!-- 语言统计将通过JS动态生成 -->
+                    </div>
                 </div>
-                <div class="file-content" id="file-content">
-                    <div id="readme-content"></div>
-                    <pre><code id="code-display"></code></pre>
+                <div class="file-tree" id="file-tree">
+                    <!-- 文件树将通过JS动态生成 -->
                 </div>
             </div>
-            <div class="stats-panel" id="stats-panel">
-                <h3>代码统计</h3>
-                <div id="language-stats">
-                    <!-- 语言统计将通过JS动态生成 -->
+            
+            <div class="code-viewer">
+                <div class="code-header">
+                    <h3 id="current-file">待选择</h3>
+                    <div class="file-actions">
+                        <button id="copy-button">复制</button>
+                        <button id="download-button">下载</button>
+                    </div>
+                </div>
+                <div class="code-container">
+                    <div class="line-numbers" id="line-numbers"></div>
+                    <pre><code id="code-display" class="hljs">Please Choice a Code Library.</code></pre>
                 </div>
             </div>
         </main>
-        
-        <!-- 底部固定内容 -->
-        <footer>
-            <div class="copyright">&copy; 2022 - <span id="copyright-year"></span> Oringes.cn & Xue FengPeng 保留所有权利.</div>
+
+    </div>
+
+    <!-- 底部固定内容 -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>&copy; 2022 - <span id="copyright-year"></span> Oringes.cn & Xue FengPeng 保留所有权利.</p>
             <script>
                 document.getElementById('copyright-year').textContent = new Date().getFullYear();
             </script>
-            <a href="https://github.com/Oringes9235" target="_blank" class="github-link" style="color: #1a1e22;">
-                <i class="fab fa-github"></i>
+            <a href="https://github.com/Oringes9235" target="_blank" rel="noopener noreferrer" style="color: #1a1e22;">
+                <svg height="20" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="20" fill="currentColor">
+                    <path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path>
+                </svg>
             </a>
-        </footer>
-    </div>
+        </div>
+    </footer>
 
-    <script src="script.js"></script>
+    <script src="./script/script.js"></script>
 </body>
 </html>
