@@ -105,6 +105,40 @@ body {
     color: var(--text-color);
 }
 
+/* 复制按钮反馈样式 */
+#copy-button {
+    transition: background-color 0.3s ease;
+}
+
+#copy-button.copied {
+    background-color: #4CAF50 !important;
+    color: white;
+}
+
+/* GitHub 风格提示 */
+.copy-toast {
+    position: fixed;
+    bottom: 64px;
+    left: 50%;
+    transform: translateX(-50%) translateY(20px);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    z-index: 9999;
+    pointer-events: none;
+}
+
+.copy-toast.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
 .project-list {
     list-style: none;
     overflow-y: auto;

@@ -26,14 +26,38 @@ document.addEventListener('DOMContentLoaded', function() {
     fetchProjects();
 
     // 复制按钮功能
-    document.getElementById('copy-button').addEventListener('click', function() {
-        if (currentFile) {
-            const code = document.getElementById('code-display').textContent;
-            navigator.clipboard.writeText(code).then(() => {
-                alert('代码已复制到剪贴板');
-            });
+    document.getElementById('copy-button').addEventListener('click', async function() {
+        if (!currentFile) return;
+        
+        const codeDisplay = document.getElementById('code-display');
+        const codeToCopy = codeDisplay.textContent || codeDisplay.innerText;
+        
+        try {
+            await navigator.clipboard.writeText(codeToCopy);
+            showToast('Copied!');
+        } catch (error) {
+            console.error('复制失败:', error);
+            showToast('Copy failed', true);
         }
     });
+
+    function showToast(message) {
+        const toast = document.createElement('div');
+        toast.className = 'copy-toast github-style';
+        toast.textContent = message;
+        
+        // 添加到页面
+        document.body.appendChild(toast);
+        
+        // 触发动画
+        setTimeout(() => toast.classList.add('show'), 10);
+        
+        // 自动消失
+        setTimeout(() => {
+            toast.classList.remove('show');
+            setTimeout(() => document.body.removeChild(toast), 300);
+        }, 2000);
+    }
 
     // 下载按钮功能
     document.getElementById('download-button').addEventListener('click', function() {
