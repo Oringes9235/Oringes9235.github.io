@@ -487,6 +487,7 @@ document.addEventListener('DOMContentLoaded', function() {
             case 'makefile': return '#e37933';
             case 'batchfile': return '#519aba';
             case 'sh': return '#89e051';
+            case 'txt': return '#ca64ea';
             default: return '#ccc';
         }
     }

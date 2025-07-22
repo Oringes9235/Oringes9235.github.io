@@ -137,6 +137,12 @@
           "path": "projects/Coffeepp/README.md"
         },
         {
+          "name": "LICENSE",
+          "type": "file",
+          "language": "txt",
+          "path": "projects/Coffeepp/LICENSE"
+        },
+        {
           "name": "Makefile",
           "type": "file",
           "language": "makfile",
