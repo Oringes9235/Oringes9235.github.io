@@ -1,3 +1,4 @@
+
 <style>
   /* 添加终端样式 */
   .terminal-container {
@@ -110,7 +111,6 @@
   }
 
   .contant-items {
-    max-width: 800px !important;
     margin: 2rem auto !important;
     background: #1e1e1e !important;
     border-radius: 8px !important;
@@ -145,61 +145,9 @@
     <div class="terminal-title">bash</div>
   </div>
   <div class="terminal-body" id="terminal">
-    <div class="terminal-line"><span class="terminal-prompt">$ Welcome to Oringes' Dev Blog!</span><span
-        id="typing-text"></span><span class="terminal-cursor"></span></div>
+    <div class="terminal-line"><span class="terminal-prompt">$ Welcome to Oringes' Dev Blog!</span><span id="typing-text"></span><span class="terminal-cursor"></span></div>
   </div>
 </div>
-<script type="text/javascript">
-  // 终端打字效果
-  document.addEventListener('DOMContentLoaded', function () {
-    const terminal = document.getElementById('typing-text');
-    const messages = [
-      "Welcome to Oringes' Dev Blog!",
-      "This is a place where I share my coding journey.",
-      "You'll find tutorials, projects and thoughts here.",
-      "Feel free to explore and connect with me!",
-      "Thanks for visiting! :)"
-    ];
-    let messageIndex = 0;
-    let charIndex = 0;
-    let isDeleting = false;
-    let isTyping = true;
-
-    function type() {
-      const currentMessage = messages[messageIndex];
-
-      if (isTyping) {
-        if (charIndex < currentMessage.length) {
-          terminal.textContent = currentMessage.substring(0, charIndex + 1);
-          charIndex++;
-          setTimeout(type, 100);
-        } else {
-          isTyping = false;
-          setTimeout(() => {
-            isDeleting = true;
-            type();
-          }, 2000);
-        }
-      } else if (isDeleting) {
-        if (charIndex > 0) {
-          terminal.textContent = currentMessage.substring(0, charIndex - 1);
-          charIndex--;
-          setTimeout(type, 50);
-        } else {
-          isDeleting = false;
-          messageIndex = (messageIndex + 1) % messages.length;
-          setTimeout(() => {
-            isTyping = true;
-            type();
-          }, 500);
-        }
-      }
-    }
-
-    // 启动打字效果
-    setTimeout(type, 1000);
-  });
-</script>
 
 <h1>快速分类</h1>
 
@@ -281,3 +229,6 @@
 
   </div>
 </div>
+
+
+<script src="./script/markdown.js"></script>
