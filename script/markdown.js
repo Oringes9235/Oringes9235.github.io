@@ -117,15 +117,15 @@ function initLayout() {
         <div class="author-name">Oringes</div>
         <div class="stats">
             <div class="stat-item">
-                <div class="stat-number">42</div>
+                <div class="stat-number">11</div>
                 <div class="stat-label">文章</div>
             </div>
             <div class="stat-item">
-                <div class="stat-number">15</div>
+                <div class="stat-number">8</div>
                 <div class="stat-label">标签</div>
             </div>
             <div class="stat-item">
-                <div class="stat-number">8</div>
+                <div class="stat-number">3</div>
                 <div class="stat-label">分类</div>
             </div>
         </div>
