@@ -96,6 +96,7 @@ input {
     --md-accent-bg-color: #fff;
     --md-accent-bg-color--light: #ffffffb3;
     background: #1e2129 !important;
+    color: #9b9b9b;
 }
 
 [data-md-color-scheme=default] {
@@ -113,7 +114,7 @@ input {
     --md-default-fg-color: #000000de;
     --md-default-fg-color--light: #0000008a;
     --md-default-fg-color--lighter: #00000052;
-    --md-default-fg-color--lightest: #00000012;
+    --md-default-fg-color--lightest: #fff;
     --md-default-bg-color: #1e2129;
     --md-default-bg-color--light: #4051b5;
     --md-default-bg-color--lighter: #ffffff4d;
@@ -2716,7 +2717,7 @@ html .md-footer-meta.md-typeset a:hover {
 
 .md-search__inner {
     -webkit-backface-visibility: hidden;
-    backface-visibility: hidden
+    backface-visibility: hidden;
 }
 
 @media screen and (max-width: 59.984375em) {
@@ -2821,7 +2822,8 @@ html .md-footer-meta.md-typeset a:hover {
 }
 
 .md-search__input {
-    background: #0000;
+    background: #fff;
+    border-radius: 2px;
     font-size: .9rem;
     height: 100%;
     position: relative;
@@ -2887,6 +2889,7 @@ html .md-footer-meta.md-typeset a:hover {
 }
 
 .md-search__icon {
+    fill: #000 !important;
     cursor: pointer;
     display: inline-block;
     height: 1.2rem;
