@@ -378,7 +378,7 @@
 [data-md-color-primary=orange]:not([data-md-color-scheme=slate]) {
     --md-typeset-a-color: #e68a00
 }
-
+/*
 [data-md-color-primary=white] {
     --md-primary-fg-color: hsla(var(--md-hue), 0%, 100%, 1);
     --md-primary-fg-color--light: hsla(var(--md-hue), 0%, 100%, 0.7);
@@ -387,7 +387,7 @@
     --md-primary-bg-color--light: hsla(var(--md-hue), 0%, 0%, 0.54);
     --md-typeset-a-color: #4051b5
 }
-
+*/
 [data-md-color-primary=white] .md-button {
     color: var(--md-typeset-a-color)
 }

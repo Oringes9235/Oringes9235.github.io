@@ -109,7 +109,7 @@ input {
 
 :root,
 [data-md-color-scheme=default] {
-    --md-hue: 225deg;
+    --md-hue: #4051b5;
     --md-default-fg-color: #000000de;
     --md-default-fg-color--light: #0000008a;
     --md-default-fg-color--lighter: #00000052;
