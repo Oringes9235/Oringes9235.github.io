@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="./style/style.css">
 <style>
   h1 {
     color: #e0e0e0;
@@ -326,16 +327,24 @@
         <div class="terminal-button red"></div>
         <div class="terminal-button yellow"></div>
         <div class="terminal-button green"></div>
-        <div class="terminal-title" style="font-size: 13px !important;">常用网站快速访问</div>
+        <div class="terminal-title" style="font-size: 13px !important;">相册链接</div>
       </div>
       <div class="item-links">
         <div class="item-link-item">
-          <a href="https://www.google.com" target="_blank">Google</a>
+          <a href="https://www.google.com" target="_blank">Shared Album</a>
           <div class="item-link-desc">全球最流行的搜索引擎</div>
         </div>
         <div class="item-link-item">
-          <a href="https://www.baidu.com" target="_blank">百度</a>
+          <a href="https://www.baidu.com" target="_blank">Personal Album</a>
           <div class="item-link-desc">中文搜索引擎</div>
+          <ul class="md-source__facts">
+            <li class="md-source__fact md-source__fact--version"><span id="date"></span></li>
+            <script>
+              document.getElementById('date').textContent = new Date().getFullYear() + "." + (new Date().getMonth() + 1) + "." + new Date().getDate();
+            </script>
+            <li class="md-source__fact md-source__fact--stars">2</li>
+            <li class="md-source__fact md-source__fact--forks">1</li>
+          </ul>
         </div>
         <div class="item-link-item">
           <a href="https://www.bing.com" target="_blank">Bing</a>
