@@ -3,141 +3,222 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>代码输入效果</title>
+    <title>文章卡片示例</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
-        body {
-            font-family: 'Courier New', monospace;
-            background-color: #f5f5f5;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+        * {
             margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background-color: #f7f9fe;
+            padding: 20px;
             color: #333;
         }
         
-        .terminal {
-            background-color: #1e1e1e;
-            border-radius: 5px;
-            padding: 20px;
-            width: 80%;
-            max-width: 800px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        .recent-post-item {
+            display: flex;
+            margin-bottom: 20px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
         
-        .terminal-header {
+        .recent-post-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .post_cover .left {
+            width: 220px;
+            min-height: 150px;
+            flex-shrink: 0;
+        }
+        .post_cover .right {
+            width: 220px;
+            min-height: 150px;
+            flex-shrink: 0;
+        }
+        
+        .post-bg {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        
+        .recent-post-info {
+            flex: 1;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .article-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        
+        .article-title:hover {
+            color: #3498db;
+        }
+        
+        .article-meta-wrap {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-bottom: 12px;
+            font-size: 0.85rem;
+            color: #7f8c8d;
+        }
+        
+        .post-meta-date {
             display: flex;
             align-items: center;
-            margin-bottom: 15px;
+            margin-right: 10px;
         }
         
-        .terminal-btn {
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            margin-right: 6px;
+        .article-meta-label {
+            margin-left: 5px;
         }
         
-        .btn-red { background-color: #ff5f56; }
-        .btn-yellow { background-color: #ffbd2e; }
-        .btn-green { background-color: #27c93f; }
-        
-        .terminal-title {
-            color: #999;
-            font-size: 12px;
-            margin-left: 10px;
+        .article-meta {
+            display: flex;
+            align-items: center;
+            margin-right: 10px;
         }
         
-        .terminal-body {
-            color: #f0f0f0;
-            font-size: 16px;
-            line-height: 1.5;
+        .article-meta i {
+            margin-right: 5px;
+            font-size: 0.9em;
         }
         
-        .prompt {
-            color: #4CAF50;
+        .article-meta-separator {
+            margin: 0 5px;
         }
         
-        .cursor {
-            display: inline-block;
-            width: 10px;
-            height: 20px;
-            background-color: #f0f0f0;
-            animation: blink 1s infinite;
-            vertical-align: middle;
+        .article-meta__categories, 
+        .article-meta__tags {
+            color: #7f8c8d;
+            text-decoration: none;
+            transition: color 0.2s;
         }
         
-        @keyframes blink {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0; }
+        .article-meta__categories:hover, 
+        .article-meta__tags:hover {
+            color: #3498db;
         }
         
-        .typed-text {
-            border-right: 2px solid #4CAF50;
-            white-space: nowrap;
-            overflow: hidden;
+        .content {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: #555;
+            flex: 1;
         }
     </style>
 </head>
 <body>
-    <div class="terminal">
-        <div class="terminal-header">
-            <div class="terminal-btn btn-red"></div>
-            <div class="terminal-btn btn-yellow"></div>
-            <div class="terminal-btn btn-green"></div>
-            <div class="terminal-title">bash</div>
+    <div class="recent-post-item">
+        <div class="post_cover left">
+            <a href="/2025/07/21/f120/itemgroup/" title="创造模式物品栏 1.20 Forge 长线教程计划">
+                <img class="post-bg" src="/pic/f120/0003.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="创造模式物品栏 1.20 Forge 长线教程计划">
+            </a>
         </div>
-        <div class="terminal-body">
-            <div class="prompt">$</div>
-            <span id="typed-text" class="typed-text"></span>
-            <span class="cursor"></span>
+        <div class="recent-post-info">
+            <a class="article-title" href="/2025/07/21/f120/itemgroup/" title="创造模式物品栏 1.20 Forge 长线教程计划">创造模式物品栏 1.20 Forge 长线教程计划</a>
+            <div class="article-meta-wrap">
+                <span class="post-meta-date">
+                    <i class="far fa-calendar-alt"></i>
+                    <span class="article-meta-label">发表于</span>
+                    <time datetime="2025-07-20T17:00:00.000Z" title="发表于 2025-07-21 01:00:00">2025-07-21</time>
+                </span>
+                <span class="article-meta">
+                    <span class="article-meta-separator">|</span>
+                    <i class="fas fa-inbox"></i>
+                    <a class="article-meta__categories" href="/categories/Tutorial/">Tutorial</a>
+                </span>
+                <span class="article-meta tags">
+                    <span class="article-meta-separator">|</span>
+                    <i class="fas fa-tag"></i>
+                    <a class="article-meta__tags" href="/tags/Forge-1-20-1/">Forge 1.20.1</a>
+                </span>
+            </div>
+            <div class="content">将物品添加到创造模式物品栏中</div>
         </div>
     </div>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const element = document.getElementById('typed-text');
-            const texts = [
-                "git init",
-                "git add .",
-                "git commit -m 'Initial commit'",
-                "git remote add origin https://github.com/username/repo.git",
-                "git push -u origin master"
-            ];
-            let textIndex = 0;
-            let charIndex = 0;
-            let isDeleting = false;
-            let typingSpeed = 100;
-            let pauseTime = 2000;
-            
-            function type() {
-                const currentText = texts[textIndex];
-                
-                if (isDeleting) {
-                    element.textContent = currentText.substring(0, charIndex-1);
-                    charIndex--;
-                    typingSpeed = 50;
-                } else {
-                    element.textContent = currentText.substring(0, charIndex+1);
-                    charIndex++;
-                    typingSpeed = 100;
-                }
-                
-                if (!isDeleting && charIndex === currentText.length) {
-                    isDeleting = true;
-                    typingSpeed = pauseTime;
-                } else if (isDeleting && charIndex === 0) {
-                    isDeleting = false;
-                    textIndex = (textIndex + 1) % texts.length;
-                    typingSpeed = 500;
-                }
-                
-                setTimeout(type, typingSpeed);
-            }
-            
-            // 延迟1秒开始动画
-            setTimeout(type, 1000);
-        });
-    </script>
+
+
+
+
+    <div class="recent-post-item">
+        <div class="post_cover right">
+            <a href="/2025/07/21/f120/itemgroup/" title="创造模式物品栏 1.20 Forge 长线教程计划">
+                <img class="post-bg" src="/pic/f120/0003.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="创造模式物品栏 1.20 Forge 长线教程计划">
+            </a>
+        </div>
+        <div class="recent-post-info">
+            <a class="article-title" href="/2025/07/21/f120/itemgroup/" title="创造模式物品栏 1.20 Forge 长线教程计划">创造模式物品栏 1.20 Forge 长线教程计划</a>
+            <div class="article-meta-wrap">
+                <span class="post-meta-date">
+                    <i class="far fa-calendar-alt"></i>
+                    <span class="article-meta-label">发表于</span>
+                    <time datetime="2025-07-20T17:00:00.000Z" title="发表于 2025-07-21 01:00:00">2025-07-21</time>
+                </span>
+                <span class="article-meta">
+                    <span class="article-meta-separator">|</span>
+                    <i class="fas fa-inbox"></i>
+                    <a class="article-meta__categories" href="/categories/Tutorial/">Tutorial</a>
+                </span>
+                <span class="article-meta tags">
+                    <span class="article-meta-separator">|</span>
+                    <i class="fas fa-tag"></i>
+                    <a class="article-meta__tags" href="/tags/Forge-1-20-1/">Forge 1.20.1</a>
+                </span>
+            </div>
+            <div class="content">将物品添加到创造模式物品栏中</div>
+        </div>
+    </div>
+
+        
+    
+    
+    <div class="recent-post-item">
+        <div class="post_cover left">
+            <a href="/2025/07/21/f120/itemgroup/" title="创造模式物品栏 1.20 Forge 长线教程计划">
+                <img class="post-bg" src="/pic/f120/0003.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="创造模式物品栏 1.20 Forge 长线教程计划">
+            </a>
+        </div>
+        <div class="recent-post-info">
+            <a class="article-title" href="/2025/07/21/f120/itemgroup/" title="创造模式物品栏 1.20 Forge 长线教程计划">创造模式物品栏 1.20 Forge 长线教程计划</a>
+            <div class="article-meta-wrap">
+                <span class="post-meta-date">
+                    <i class="far fa-calendar-alt"></i>
+                    <span class="article-meta-label">发表于</span>
+                    <time datetime="2025-07-20T17:00:00.000Z" title="发表于 2025-07-21 01:00:00">2025-07-21</time>
+                </span>
+                <span class="article-meta">
+                    <span class="article-meta-separator">|</span>
+                    <i class="fas fa-inbox"></i>
+                    <a class="article-meta__categories" href="/categories/Tutorial/">Tutorial</a>
+                </span>
+                <span class="article-meta tags">
+                    <span class="article-meta-separator">|</span>
+                    <i class="fas fa-tag"></i>
+                    <a class="article-meta__tags" href="/tags/Forge-1-20-1/">Forge 1.20.1</a>
+                </span>
+            </div>
+            <div class="content">将物品添加到创造模式物品栏中</div>
+        </div>
+    </div>
 </body>
 </html>
