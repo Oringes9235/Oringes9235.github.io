@@ -1,0 +1,20 @@
+/* 粒子效果样式 */
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999; /* 提高层级确保可见 */
+  pointer-events: none; /* 允许点击穿透 */
+  overflow: hidden;
+}
+
+.particle {
+  position: absolute;
+  border-radius: 50%;
+  border: red !important;
+  pointer-events: none;
+  user-select: none;
+  transform: translate(-50%, -50%); /* 确保从点击中心扩散 */
+}

@@ -1,0 +1,252 @@
+<style>
+  /* 添加终端样式 */
+  .terminal-container {
+    max-width: 800px !important;
+    margin: 2rem auto !important;
+    background: #1e1e1e !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+  }
+
+  .terminal-header {
+    background: #333 !important;
+    padding: 8px 12px !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  .terminal-button {
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50% !important;
+    margin-right: 6px !important;
+  }
+
+  .terminal-button.red {
+    background: #ff5f56 !important;
+  }
+
+  .terminal-button.yellow {
+    background: #ffbd2e !important;
+  }
+
+  .terminal-button.green {
+    background: #27c93f !important;
+  }
+
+  .terminal-title {
+    color: #aaa !important;
+    font-size: 12px !important;
+    margin-left: 12px !important;
+    font-family: var(--md-code-font) !important;
+  }
+
+  .terminal-body {
+    padding: 0 16px !important;
+    font-family: var(--md-code-font) !important;
+    color: #f0f0f0 !important;
+    white-space: pre-wrap !important;
+  }
+
+  .terminal-cursor {
+    display: inline-block !important;
+    width: 8px !important;
+    height: 16px !important;
+    background: #f0f0f0 !important;
+    vertical-align: middle !important;
+    animation: blink 1s infinite !important;
+  }
+
+  @keyframes blink {
+
+    0%,
+    100% {
+      opacity: 1 !important;
+    }
+
+    50% {
+      opacity: 0 !important;
+    }
+  }
+
+  .terminal-line {
+    margin-bottom: 8px !important;
+  }
+
+  .terminal-prompt {
+    color: #4CAF50 !important;
+  }
+
+  .terminal-command {
+    color: #f0f0f0 !important;
+  }
+
+  .terminal-output {
+    color: #9CDCFE !important;
+  }
+  .markdown-alert.markdown-alert-important {
+    border-left-color: var(--borderColor-done-emphasis);
+}
+.markdown-alert .markdown-alert-title {
+    display: flex
+;
+    font-weight: var(--base-text-weight-medium, 500);
+    align-items: center;
+    line-height: 1;
+}
+.octicon {
+    display: inline-block;
+    overflow: visible !important;
+    vertical-align: text-bottom;
+    fill: currentColor;
+}
+ul li:hover {
+  text-decoration: underline;
+  color: #49b1f5;
+}
+</style>
+
+
+
+
+
+<img src="./assets/images/logo.png" alt="Oringes9235" width="128"
+  style="text-align:center; margin: 0 auto; background: none; display: flex;" />
+
+<h1 style="text-align: center; margin: 0 auto; text-decoration: none;">Oringes' Github Dev Blog</h1>
+
+
+
+
+
+
+<!-- 添加终端模拟器 -->
+<div class="terminal-container">
+  <div class="terminal-header">
+    <div class="terminal-button red"></div>
+    <div class="terminal-button yellow"></div>
+    <div class="terminal-button green"></div>
+    <div class="terminal-title">bash</div>
+  </div>
+  <div class="terminal-body" id="terminal">
+    <div class="terminal-line"><span class="terminal-prompt">$ Welcome to Oringes' Dev Blog!</span><span
+        id="typing-text"></span><span class="terminal-cursor"></span></div>
+  </div>
+</div>
+<script type="text/javascript">
+  // 终端打字效果
+  document.addEventListener('DOMContentLoaded', function () {
+    const terminal = document.getElementById('typing-text');
+    const messages = [
+      "Welcome to Oringes' Dev Blog!",
+      "This is a place where I share my coding journey.",
+      "You'll find tutorials, projects and thoughts here.",
+      "Feel free to explore and connect with me!",
+      "Thanks for visiting! :)"
+    ];
+    let messageIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+    let isTyping = true;
+
+    function type() {
+      const currentMessage = messages[messageIndex];
+
+      if (isTyping) {
+        if (charIndex < currentMessage.length) {
+          terminal.textContent = currentMessage.substring(0, charIndex + 1);
+          charIndex++;
+          setTimeout(type, 100);
+        } else {
+          isTyping = false;
+          setTimeout(() => {
+            isDeleting = true;
+            type();
+          }, 2000);
+        }
+      } else if (isDeleting) {
+        if (charIndex > 0) {
+          terminal.textContent = currentMessage.substring(0, charIndex - 1);
+          charIndex--;
+          setTimeout(type, 50);
+        } else {
+          isDeleting = false;
+          messageIndex = (messageIndex + 1) % messages.length;
+          setTimeout(() => {
+            isTyping = true;
+            type();
+          }, 500);
+        }
+      }
+    }
+
+    // 启动打字效果
+    setTimeout(type, 1000);
+  });
+</script>
+
+<h1>快速分类</h1>
+
+<div style="background-color: auto; border-left: 4px solid #1f6feb; padding: 12px 16px; margin: 16px 0; border-radius: 0 4px 4px 0;">
+  <div style="font-weight: bold; margin-bottom: 8px; display: flex; align-items: center; color: #1f6feb;">
+    <svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" fill="#1f6feb" version="1.1" width="16" height="16" aria-hidden="true">
+      <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path>
+    </svg>
+    &ensp;NOTE
+  </div>
+  <div style="color: #9b9b9b; line-height: 1.5;">
+    <p>此列表是动态加载的，若有异常刷新页面即可解决异常。</p>
+  </div>
+</div>
+
+<h3>1. 相册</h3>
+<ul>
+  <li><i class="fas fa-hdd"></i><a href="./photo/public/index.html">&ensp;共享一刻相册</a></li>
+  <li><i class="fas fa-hdd"></i><a href="./photo/private/login.html">&ensp;个人一刻相册</a></li>
+</ul>
+<h3>2. 查询</h3>
+<ul>
+  <li><i class="fas fa-plane"></i><a href="https://www.aerolopa.com/">&ensp;AeroLOPA</a></li>
+  <li><i class="fas fa-gamepad"></i><a href="./tutorial/game/minecraft/index.html">&ensp;Minecraft</a></li>
+  <li><i class="fas fa-code"></i><a href="./tutorial/code/index.html">&ensp;Code Hub</a></li>
+</ul>
+<h3>3. 工具</h3>
+<ul>
+  <li><i class="fas fa-edit"></i><a href="./markdown/index.html">&ensp;Markdown Online</a></li>
+  <li><i class="fas fa-book"></i><a href="./tutorial/testWords/index.html">&ensp;Words Memory</a></li>
+</ul>
+
+
+
+<div style="background-color: auto; border-left: 4px solid #8957e5; padding: 12px 16px; margin: 16px 0; border-radius: 0 4px 4px 0;">
+  <div style="font-weight: bold; margin-bottom: 8px; display: flex; align-items: center; color: #8957e5;">
+    <svg style="margin-right: 8px;" width="16" height="16" viewBox="0 0 24 24" fill="#8957e5" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 2L1 21h22L12 2zm0 3.5L18.5 19h-13L12 5.5z"/>
+      <path d="M12 15.5c-.8 0-1.5-.7-1.5-1.5s.7-1.5 1.5-1.5 1.5.7 1.5 1.5-.7 1.5-1.5 1.5z"/>
+      <circle cx="12" cy="8.5" r="1"/>
+    </svg>
+    &ensp;IMPORTANT
+  </div>
+  <div style="color: #9b9b9b; line-height: 1.5;">
+    <p>We're a small team, and to prioritize, we rely on upvotes 👍. We use the Top Issues dashboard for tracking community demand (see 
+      <a href="https://github.com/anuraghazra/github-readme-stats/issues/1935" style="color: #0366d6; text-decoration: none;">#1935</a>
+      ). Do not hesitate to upvote the issues and pull requests you are interested in. We will work on the most upvoted first.</p>
+  </div>
+</div>
+
+<div style="background-color: auto; border-left: 4px solid #9e6a03; padding: 12px 16px; margin: 16px 0; border-radius: 0 4px 4px 0;">
+  <div style="font-weight: bold; margin-bottom: 8px; display: flex; align-items: center; color: #9e6a03;">
+    <svg style="margin-right: 8px;" width="16" height="16" viewBox="0 0 24 24" fill="#9e6a03" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 2L1 21h22L12 2zm0 3.5L18.5 19h-13L12 5.5z"/>
+      <path d="M12 15.5c-.8 0-1.5-.7-1.5-1.5s.7-1.5 1.5-1.5 1.5.7 1.5 1.5-.7 1.5-1.5 1.5z"/>
+      <circle cx="12" cy="8.5" r="1"/>
+    </svg>
+    &ensp;WARNING
+  </div>
+  <div style="color: #9b9b9b; line-height: 1.5;">
+    <p>By default, the stats card only shows statistics like stars, commits, and pull requests from public repositories. To show private statistics on the stats card, you should <a href="#deploy-on-your-own" style="color: #0366d6; text-decoration: none;">deploy your own instance</a> using your own GitHub API token.</p>
+  </div>
+</div>
+
+<p></p>
