@@ -1,0 +1,86 @@
+  /* 添加终端样式 */
+  .terminal-container {
+    max-width: 800px !important;
+    margin: 2rem auto !important;
+    background: #1e1e1e !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+  }
+
+  .terminal-header {
+    background: #333 !important;
+    padding: 8px 12px !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  .terminal-button {
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50% !important;
+    margin-right: 6px !important;
+  }
+
+  .terminal-button.red {
+    background: #ff5f56 !important;
+  }
+
+  .terminal-button.yellow {
+    background: #ffbd2e !important;
+  }
+
+  .terminal-button.green {
+    background: #27c93f !important;
+  }
+
+  .terminal-title {
+    color: #aaa !important;
+    font-size: 12px !important;
+    margin-left: 12px !important;
+    font-family: var(--md-code-font) !important;
+  }
+
+  .terminal-body {
+    padding: 0 16px !important;
+    font-family: var(--md-code-font) !important;
+    color: #f0f0f0 !important;
+    white-space: pre-wrap !important;
+  }
+
+  .terminal-cursor {
+    display: inline-block !important;
+    width: 8px !important;
+    height: 16px !important;
+    background: #f0f0f0 !important;
+    vertical-align: middle !important;
+    animation: blink 1s infinite !important;
+  }
+
+  @keyframes blink {
+
+    0%,
+    100% {
+      opacity: 1 !important;
+    }
+
+    50% {
+      opacity: 0 !important;
+    }
+  }
+
+  .terminal-line {
+    margin-bottom: 8px !important;
+  }
+
+  .terminal-prompt {
+    color: #4CAF50 !important;
+  }
+
+  .terminal-command {
+    color: #f0f0f0 !important;
+  }
+
+  .terminal-output {
+    color: #9CDCFE !important;
+  }

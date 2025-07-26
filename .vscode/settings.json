@@ -1,5 +1,6 @@
 {
   "liveServer.settings.mimeTypes": {
     ".js": "text/javascript"
-  }
+  },
+  "liveServer.settings.port": 5502
 }
