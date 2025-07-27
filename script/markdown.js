@@ -175,7 +175,7 @@ function initLayout() {
                 <div class="stat-label">分类</div>
             </div>
         </div>
-        <a href="https://github.com/oringz" class="github-btn" target="_blank"><i class="fab fa-github"></i>&ensp;Follow Me</a>
+        <a href="https://github.com/Oringes9235" class="github-btn" target="_blank"><i class="fab fa-github"></i>&ensp;Follow Me</a>
         <div class="social-links">
             <a href="https://github.com/Oringes9235" class="social-link" target="_blank"><i class="fab fa-github" style="color: #e0e0e0;"></i></a>
             <a href="mailto:xfp20080128xfp@163.com" class="social-link" target="_blank"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a>
